@@ -1,0 +1,859 @@
+{
+    "id": "sf2e-anachronism",
+    "title": "Starfinder Anachronism: Official Starfinder Content Pack for Pathfinder Second Edition",
+    "version": "dev",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "description": "<p>Official Starfinder 2e content pack for Pathfinder 2e! Add SF2e chracter options, creatures, and items into your PF2e game!</p>",
+    "packs": [
+        {
+            "name": "actions",
+            "label": "Actions",
+            "path": "packs/actions",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "ancestries",
+            "label": "Ancestries",
+            "path": "packs/ancestries",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "ancestry-features",
+            "label": "Ancestry Features",
+            "path": "packs/ancestry-features",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "backgrounds",
+            "label": "Backgrounds",
+            "path": "packs/backgrounds",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "class-features",
+            "label": "Class Features",
+            "path": "packs/class-features",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "classes",
+            "label": "Classes",
+            "path": "packs/classes",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "conditions",
+            "label": "Conditions",
+            "path": "packs/conditions",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "deities",
+            "label": "Deities",
+            "path": "packs/deities",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "equipment",
+            "label": "Equipment",
+            "path": "packs/equipment",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "equipment-effects",
+            "label": "Equipment Effects",
+            "path": "packs/equipment-effects",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "feat-effects",
+            "label": "Feat/Feature Effects",
+            "path": "packs/feat-effects",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "feats",
+            "label": "Feats",
+            "path": "packs/feats",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "heritages",
+            "label": "Heritages",
+            "path": "packs/heritages",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "iconics",
+            "label": "Iconics",
+            "path": "packs/iconics",
+            "type": "Actor",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "paizo-pregens",
+            "label": "Adventure Pregens",
+            "path": "packs/paizo-pregens",
+            "type": "Actor",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "spell-effects",
+            "label": "Spell Effects",
+            "path": "packs/spell-effects",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "spells",
+            "label": "Spells",
+            "path": "packs/spells",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "standalone-adventure-bestiary",
+            "label": "Standalone Adventures",
+            "path": "packs/standalone-adventure-bestiary",
+            "type": "Actor",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Starfinder 2e",
+            "color": "#2C4E69",
+            "sorting": "m",
+            "folders": [
+                {
+                    "name": "Bestiaries",
+                    "sorting": "m",
+                    "color": "#9DD9E5",
+                    "packs": [
+                        "standalone-adventure-bestiary"
+                    ]
+                },
+                {
+                    "name": "Pregenerated PCs",
+                    "sorting": "m",
+                    "color": "#9DD9E5",
+                    "packs": [
+                        "iconics",
+                        "paizo-pregens"
+                    ]
+                },
+                {
+                    "name": "Effects",
+                    "sorting": "m",
+                    "color": "#B9519E",
+                    "packs": [
+                        "conditions",
+                        "equipment-effects",
+                        "feat-effects",
+                        "spell-effects"
+                    ]
+                },
+                {
+                    "name": "Character Building",
+                    "sorting": "m",
+                    "color": "#9DD9E5",
+                    "packs": [
+                        "actions",
+                        "ancestries",
+                        "ancestry-features",
+                        "backgrounds",
+                        "classes",
+                        "class-features",
+                        "deities",
+                        "equipment",
+                        "feats",
+                        "heritages",
+                        "spells"
+                    ]
+                }
+            ]
+        }
+    ],
+    "flags": {
+        "sf2e-anachronism": {
+            "pf2e-homebrew": {
+                "skills": {
+                    "additional": {
+                        "computers": {
+                            "label": "SF2E.Skill.Computers",
+                            "attribute": "int"
+                        },
+                        "piloting": {
+                            "label": "SF2E.Skill.Piloting",
+                            "attribute": "dex"
+                        }
+                    }
+                },
+                "armorGroups": {
+                    "ceramic": "SF2E.Armor.Group.Ceramic",
+                    "polymer": "SF2E.Armor.Group.Polymer"
+                },
+                "baseArmors": {
+                    "abadarcorp-travel-suit": "SF2E.Armor.Base.AbadarcorpTravelSuit",
+                    "aegis-series": "SF2E.Armor.Base.AegisSeries",
+                    "armored-coat": "SF2E.Armor.Base.ArmoredCoat",
+                    "carbon-skin": "SF2E.Armor.Base.CarbonSkin",
+                    "defiance-series": "SF2E.Armor.Base.DefianceSeries",
+                    "defrex-hide": "SF2E.Armor.Base.DefrexHide",
+                    "estex-suit": "SF2E.Armor.Base.EstexSuit",
+                    "flightsuit": "SF2E.Armor.Base.FlightSuit",
+                    "freebooter-armor": "SF2E.Armor.Base.FreebooterArmor",
+                    "hardlight-series": "SF2E.Armor.Base.HardlightSeries",
+                    "hidden-soldier-armor": "SF2E.Armor.Base.HiddenSoldierArmor",
+                    "kyokor-plating": "SF2E.Armor.Base.KyokorPlating",
+                    "lattice-armor": "SF2E.Armor.Base.LatticeArmor",
+                    "microcord-armor": "SF2E.Armor.Base.MicrocordArmor",
+                    "quilted-armor": "SF2E.Armor.Base.QuiltedArmor",
+                    "second-skin": "SF2E.Armor.Base.SecondSkin",
+                    "shotalashu-armor": "SF2E.Armor.Base.ShotalashuArmor",
+                    "skyfire-armor": "SF2E.Armor.Base.SkyfireArmor",
+                    "swarmsuit": "SF2E.Armor.Base.Swarmsuit",
+                    "tempweave": "SF2E.Armor.Base.Tempweave",
+                    "thinplate": "SF2E.Armor.Base.Thinplate",
+                    "veskarium-imperial-plate": "SF2E.Armor.Base.VeskariumImperialPlate"
+                },
+                "baseWeapons": {
+                    "acid-dart-rifle": "SF2E.BaseWeapon.AcidDartRifle",
+                    "aeon-rifle": "SF2E.BaseWeapon.AeonRifle",
+                    "arc-emitter": "SF2E.BaseWeapon.ArcEmitter",
+                    "arc-pistol": "SF2E.BaseWeapon.ArcPistol",
+                    "arc-rifle": "SF2E.BaseWeapon.ArcRifle",
+                    "artillery-laser": "SF2E.BaseWeapon.ArtilleryLaser",
+                    "assassin-rifle": "SF2E.BaseWeapon.AssassinRifle",
+                    "aucturnite-chakram": "SF2E.BaseWeapon.AucturniteChakram",
+                    "autotarget-rifle": "SF2E.BaseWeapon.AutotargetRifle",
+                    "baton": "SF2E.BaseWeapon.Baton",
+                    "battle-ribbon": "SF2E.BaseWeapon.BattleRibbon",
+                    "battleglove": "SF2E.BaseWeapon.Battleglove",
+                    "bio-cannon": "SF2E.BaseWeapon.BioCannon",
+                    "bone-scepter": "SF2E.BaseWeapon.BoneScepter",
+                    "boom-pistol": "SF2E.BaseWeapon.BoomPistol",
+                    "breaching-gun": "SF2E.BaseWeapon.BreachingGun",
+                    "card-slinger": "SF2E.BaseWeapon.CardSlinger",
+                    "coil-rifle": "SF2E.BaseWeapon.CoilRifle",
+                    "crossbolter": "SF2E.BaseWeapon.Crossbolter",
+                    "cryopike": "SF2E.BaseWeapon.Cryopike",
+                    "disintegration-lash": "SF2E.BaseWeapon.DisintegrationLash",
+                    "doshko": "SF2E.BaseWeapon.Doshko",
+                    "dueling-sword": "SF2E.BaseWeapon.DuelingSword",
+                    "fangblade": "SF2E.BaseWeapon.Fangblade",
+                    "flamethrower": "SF2E.BaseWeapon.Flamethrower",
+                    "force-needle": "SF2E.BaseWeapon.ForceNeedle",
+                    "grenade": "SF2E.BaseWeapon.Grenade",
+                    "grenade-launcher": "SF2E.BaseWeapon.GrenadeLauncher",
+                    "grindblade": "SF2E.BaseWeapon.Grindblade",
+                    "gyrojet-pistol": "SF2E.BaseWeapon.GyrojetPistol",
+                    "hammer": "SF2E.BaseWeapon.Hammer",
+                    "injection-rifle": "SF2E.BaseWeapon.InjectionRifle",
+                    "knife": "SF2E.BaseWeapon.Knife",
+                    "laser-pistol": "SF2E.BaseWeapon.LaserPistol",
+                    "laser-rifle": "SF2E.BaseWeapon.LaserRifle",
+                    "launcher": "SF2E.BaseWeapon.Launcher",
+                    "machine-gun": "SF2E.BaseWeapon.MachineGun",
+                    "magnetar-rifle": "SF2E.BaseWeapon.MagnetarRifle",
+                    "nano-edge-rapier": "SF2E.BaseWeapon.NanoEdgeRapier",
+                    "needler-pistol": "SF2E.BaseWeapon.NeedlerPistol",
+                    "neural-lash": "SF2E.BaseWeapon.NeuralLash",
+                    "painglaive": "SF2E.BaseWeapon.Painglaive",
+                    "phase-cutlass": "SF2E.BaseWeapon.PhaseCutlass",
+                    "plasma-cannon": "SF2E.BaseWeapon.PlasmaCannon",
+                    "plasma-caster": "SF2E.BaseWeapon.PlasmaCaster",
+                    "plasma-doshko": "SF2E.BaseWeapon.PlasmaDoshko",
+                    "plasma-sword": "SF2E.BaseWeapon.PlasmaSword",
+                    "polyglove": "SF2E.BaseWeapon.Polyglove",
+                    "pulse-gauntlet": "SF2E.BaseWeapon.PulseGauntlet",
+                    "pulsecaster-pistol": "SF2E.BaseWeapon.PulsecasterPistol",
+                    "puzzleblade": "SF2E.BaseWeapon.Puzzleblade",
+                    "reaction-breacher": "SF2E.BaseWeapon.ReactionBreacher",
+                    "rotating-pistol": "SF2E.BaseWeapon.RotatingPistol",
+                    "rotolaser": "SF2E.BaseWeapon.Rotolaser",
+                    "scattergun": "SF2E.BaseWeapon.Scattergun",
+                    "screamer": "SF2E.BaseWeapon.Screamer",
+                    "seeker-rifle": "SF2E.BaseWeapon.SeekerRifle",
+                    "semi-auto-pistol": "SF2E.BaseWeapon.SemiAutoPistol",
+                    "shirren-eye-rifle": "SF2E.BaseWeapon.ShirrenEyeRifle",
+                    "shock-pad": "SF2E.BaseWeapon.ShockPad",
+                    "shock-truncheon": "SF2E.BaseWeapon.ShockTruncheon",
+                    "shooting-starknife": "SF2E.BaseWeapon.ShootingStarknife",
+                    "singing-coil": "SF2E.BaseWeapon.SingingCoil",
+                    "singing-spear": "SF2E.BaseWeapon.SingingSpear",
+                    "skyfire-sword": "SF2E.BaseWeapon.SkyfireSword",
+                    "sonic-rifle": "SF2E.BaseWeapon.SonicRifle",
+                    "starfall-pistol": "SF2E.BaseWeapon.StarfallPistol",
+                    "stellar-cannon": "SF2E.BaseWeapon.StellarCannon",
+                    "streetsweeper": "SF2E.BaseWeapon.Streetsweeper",
+                    "tailblade": "SF2E.BaseWeapon.Tailblade",
+                    "talon": "SF2E.BaseWeapon.Talon",
+                    "thermal-dynafan": "SF2E.BaseWeapon.ThermalDynafan",
+                    "zero-cannon": "SF2E.BaseWeapon.ZeroCannon",
+                    "zero-knife": "SF2E.BaseWeapon.ZeroKnife",
+                    "zero-pistol": "SF2E.BaseWeapon.ZeroPistol"
+                },
+                "languages": {
+                    "aballonian": "SF2E.Language.Aballonian",
+                    "brethedan": "SF2E.Language.Brethedan",
+                    "castrovelian": "SF2E.Language.Castrovelian",
+                    "diasporan": "SF2E.Language.Diasporan",
+                    "eoxian": "SF2E.Language.Eoxian",
+                    "jinsul": "SF2E.Language.Jinsul",
+                    "kasatha": "SF2E.Language.Kasatha",
+                    "khizar": "SF2E.Language.Khizar",
+                    "kothama": "SF2E.Language.Kothama",
+                    "kucharn": "SF2E.Language.Kucharn",
+                    "pact-common": "SF2E.Language.PactCommon",
+                    "pahtra": "SF2E.Language.Pahtra",
+                    "prelurian": "SF2E.Language.Prelurian",
+                    "shirren": "SF2E.Language.Shirren",
+                    "triaxian": "SF2E.Language.Triaxian",
+                    "trinary": "SF2E.Language.Trinary",
+                    "vercite": "SF2E.Language.Vercite",
+                    "vesk": "SF2E.Language.Vesk",
+                    "morandomandranan": "SF2E.Language.Morandomandranan"
+                },
+                "weaponGroups": {
+                    "corrosive": "SF2E.WeaponGroups.Corrosive",
+                    "cryo": "SF2E.WeaponGroups.Cryo",
+                    "flame": "SF2E.WeaponGroups.Flame",
+                    "grenade": "SF2E.WeaponGroups.Grenade",
+                    "laser": "SF2E.WeaponGroups.Laser",
+                    "mental": "SF2E.WeaponGroups.Mental",
+                    "missile": "SF2E.WeaponGroups.Missile",
+                    "plasma": "SF2E.WeaponGroups.Plasma",
+                    "poison": "SF2E.WeaponGroups.Poison",
+                    "projectile": "SF2E.WeaponGroups.Projectile",
+                    "shock": "SF2E.WeaponGroups.Shock",
+                    "sniper": "SF2E.WeaponGroups.Sniper",
+                    "sonic": "SF2E.WeaponGroups.Sonic"
+                },
+                "creatureTraits": {
+                    "astrazoan": "SF2E.Trait.Astrazoan",
+                    "barathu": "SF2E.Trait.Barathu",
+                    "borai": "SF2E.Trait.Borai",
+                    "cosmic": "SF2E.Trait.Cosmic",
+                    "contemplative": "SF2E.Trait.Contemplative",
+                    "dragonkin": "SF2E.Trait.Dragonkin",
+                    "drift": "SF2E.Trait.Drift",
+                    "jinsul": "SF2E.Trait.Jinsul",
+                    "kalo": "SF2E.Trait.Kalo",
+                    "kasatha": "SF2E.Trait.Kasatha",
+                    "khizar": "SF2E.Trait.Khizar",
+                    "kothama": "SF2E.Trait.Kothama",
+                    "kucharn": "SF2E.Trait.Kucharn",
+                    "lashunta": "SF2E.Trait.Lashunta",
+                    "midwife": "SF2E.Trait.Midwife",
+                    "pahtra": "SF2E.Trait.Pahtra",
+                    "prismeni": "SF2E.Trait.Prismeni",
+                    "robot": "SF2E.Trait.Robot",
+                    "sarcesian": "SF2E.Trait.Sarcesian",
+                    "shirren": "SF2E.Trait.Shirren",
+                    "skittermander": "SF2E.Trait.Skittermander",
+                    "tech": "SF2E.Trait.Tech",
+                    "vesk": "SF2E.Trait.Vesk",
+                    "vlaka": "SF2E.Trait.Vlaka"
+                },
+                "classTraits": {
+                    "envoy": "SF2E.Trait.Envoy",
+                    "mystic": "SF2E.Trait.Mystic",
+                    "operative": "SF2E.Trait.Operative",
+                    "solarian": "SF2E.Trait.Solarian",
+                    "soldier": "SF2E.Trait.Soldier",
+                    "witchwarper": "SF2E.Trait.Witchwarper"
+                },
+                "featTraits": {
+                    "anchoring": {
+                        "label": "SF2E.Trait.Anchoring",
+                        "description": "SF2E.TraitDescription.Anchoring"
+                    },
+                    "area": {
+                        "label": "SF2E.Trait.Area",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "astrazoan": "SF2E.Trait.Astrazoan",
+                    "attuned": {
+                        "label": "SF2E.Trait.Attuned",
+                        "description": "SF2E.TraitDescription.Attuned"
+                    },
+                    "automatic": {
+                        "label": "SF2E.Trait.Automatic",
+                        "description": "SF2E.TraitDescription.Automatic"
+                    },
+                    "barathu": "SF2E.Trait.Barathu",
+                    "borai": "SF2E.Trait.Borai",
+                    "contemplative": "SF2E.Trait.Contemplative",
+                    "cycle": {
+                        "label": "SF2E.Trait.Cycle",
+                        "description": "SF2E.TraitDescription.Cycle"
+                    },
+                    "directive": {
+                        "label": "SF2E.Trait.Directive",
+                        "description": "SF2E.TraitDescription.Directive"
+                    },
+                    "disharmony": {
+                        "label": "SF2E.Trait.Disharmony",
+                        "description": "SF2E.TraitDescription.Disharmony"
+                    },
+                    "dragonkin": "SF2E.Trait.Dragonkin",
+                    "kalo": "SF2E.Trait.Kalo",
+                    "kasatha": "SF2E.Trait.Kasatha",
+                    "khizar": "SF2E.Trait.Khizar",
+                    "lashunta": "SF2E.Trait.Lashunta",
+                    "manifestation": {
+                        "label": "SF2E.Trait.Manifestation",
+                        "description": "SF2E.TraitDescription.Manifestation"
+                    },
+                    "pahtra": "SF2E.Trait.Pahtra",
+                    "prismeni": "SF2E.Trait.Prismeni",
+                    "sarcesian": "SF2E.Trait.Sarcesian",
+                    "shirren": "SF2E.Trait.Shirren",
+                    "skittermander": "SF2E.Trait.Skittermander",
+                    "suppressed": {
+                        "label": "SF2E.Trait.Suppressed",
+                        "description": "SF2E.TraitDescription.Suppressed"
+                    },
+                    "tech": {
+                        "label": "SF2E.Trait.Tech",
+                        "description": "SF2E.TraitDescription.Tech"
+                    },
+                    "transfer": {
+                        "label": "SF2E.Trait.Transfer",
+                        "description": "SF2E.TraitDescription.Transfer"
+                    },
+                    "traversal":  "SF2E.Trait.Traversal",
+                    "vesk": "SF2E.Trait.Vesk",
+                    "vlaka": "SF2E.Trait.Vlaka",
+                    "zone": {
+                        "label": "SF2E.Trait.Zone",
+                        "description": "SF2E.TraitDescription.Zone"
+                    }
+                },
+                "spellTraits": {
+                    "anchoring": {
+                        "label": "SF2E.Trait.Anchoring",
+                        "description": "SF2E.TraitDescription.Anchoring"
+                    },
+                    "gravity": "SF2E.Trait.Gravity",
+                    "mystic": "SF2E.Trait.Mystic",
+                    "technomancer":  "SF2E.Trait.Technomancer",
+                    "transfer": {
+                        "label": "SF2E.Trait.Transfer",
+                        "description": "SF2E.TraitDescription.Transfer"
+                    },
+                    "witchwarper": "SF2E.Trait.Witchwarper"
+                },
+                "equipmentTraits": {
+                    "analog": {
+                        "label": "SF2E.Trait.Analog",
+                        "description": "SF2E.TraitDescription.Analog"
+                    },
+                    "archaic": {
+                        "label": "SF2E.Trait.Archaic",
+                        "description": "SF2E.TraitDescription.Archaic"
+                    },
+                    "biotech": {
+                        "label": "SF2E.Trait.Biotech",
+                        "description": "SF2E.TraitDescription.Biotech"
+                    },
+                    "ceramic": "SF2E.Trait.Ceramic",
+                    "compact": {
+                        "label": "SF2E.Trait.Compact",
+                        "description": "SF2E.TraitDescription.Compact"
+                    },
+                    "exposed": {
+                        "label": "SF2E.Trait.Exposed",
+                        "description": "SF2E.TraitDescription.Exposed"
+                    },
+                    "grenade": {
+                        "label": "SF2E.Trait.Grenade",
+                        "description": "SF2E.TraitDescription.Grenade"
+                    },
+                    "installed": {
+                        "label": "SF2E.Trait.Installed",
+                        "description": "SF2E.TraitDescription.Installed"
+                    },
+                    "magitech": {
+                        "label": "SF2E.Trait.Magitech",
+                        "description": "SF2E.TraitDescription.Magitech"
+                    },
+                    "missile": {
+                        "label": "SF2E.Trait.Missile",
+                        "description": "SF2E.TraitDescription.Missile"
+                    },
+                    "nanite": "SF2E.Trait.Nanite",
+                    "polymer": "SF2E.Trait.Polymer",
+                    "retractable": {
+                        "label": "SF2E.Trait.Retractable",
+                        "description": "SF2E.TraitDescription.Retractable"
+                    },
+                    "serum": {
+                        "label": "SF2E.Trait.Serum",
+                        "description": "SF2E.TraitDescription.Serum"
+                    },
+                    "tech": {
+                        "label": "SF2E.Trait.Tech",
+                        "description": "SF2E.TraitDescription.Tech"
+                    }
+                },
+                "weaponTraits": {
+                    "aeon": {
+                        "label": "SF2E.Trait.Aeon",
+                        "description": "SF2E.TraitDescription.Aeon"
+                    },
+                    "analog": {
+                        "label": "SF2E.Trait.Analog",
+                        "description": "SF2E.TraitDescription.Analog"
+                    },
+                    "arc": {
+                        "label": "SF2E.Trait.Arc",
+                        "description": "SF2E.TraitDescription.Arc"
+                    },
+                    "archaic": {
+                        "label": "SF2E.Trait.Archaic",
+                        "description": "SF2E.TraitDescription.Archaic"
+                    },
+                    "area-burst-5": {
+                        "label": "SF2E.Trait.AreaBurst5Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-burst-10": {
+                        "label": "SF2E.Trait.AreaBurst10Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-burst-15": {
+                        "label": "SF2E.Trait.AreaBurst15Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-burst-20": {
+                        "label": "SF2E.Trait.AreaBurst20Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-burst-25": {
+                        "label": "SF2E.Trait.AreaBurst25Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-burst-30": {
+                        "label": "SF2E.Trait.AreaBurst30Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-cone": {
+                        "label": "SF2E.Trait.AreaCone",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-line": {
+                        "label": "SF2E.Trait.AreaLine",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "attune": "SF2E.Trait.Attune",
+                    "automatic": {
+                        "label": "SF2E.Trait.Automatic",
+                        "description": "SF2E.TraitDescription.Automatic"
+                    },
+                    "boost-1": {
+                        "label": "SF2E.Trait.Boost1",
+                        "description": "SF2E.TraitDescription.Boost"
+                    },
+                    "boost-1d4": {
+                        "label": "SF2E.Trait.Boost1d4",
+                        "description": "SF2E.TraitDescription.Boost"
+                    },
+                    "boost-1d6": {
+                        "label": "SF2E.Trait.Boost1d6",
+                        "description": "SF2E.TraitDescription.Boost"
+                    },
+                    "boost-1d8": {
+                        "label": "SF2E.Trait.Boost1d8",
+                        "description": "SF2E.TraitDescription.Boost"
+                    },
+                    "boost-1d10": {
+                        "label": "SF2E.Trait.Boost1d10",
+                        "description": "SF2E.TraitDescription.Boost"
+                    },
+                    "boost-1d12": {
+                        "label": "SF2E.Trait.Boost1d12",
+                        "description": "SF2E.TraitDescription.Boost"
+                    },
+                    "breakdown": {
+                        "label": "SF2E.Trait.Breakdown",
+                        "description": "SF2E.TraitDescription.Breakdown"
+                    },
+                    "caster": {
+                        "label": "SF2E.Trait.Caster",
+                        "description": "SF2E.TraitDescription.Caster"
+                    },
+                    "critical-brawling": {
+                        "label": "SF2E.Trait.CriticalBrawling",
+                        "description": "SF2E.TraitDescription.Critical"
+                    },
+                    "critical-corrosive": {
+                        "label": "SF2E.Trait.CriticalCorrosive",
+                        "description": "SF2E.TraitDescription.Critical"
+                    },
+                    "critical-cryo": {
+                        "label": "SF2E.Trait.CriticalCryo",
+                        "description": "SF2E.TraitDescription.Critical"
+                    },
+                    "critical-flame": {
+                        "label": "SF2E.Trait.CriticalFlame",
+                        "description": "SF2E.TraitDescription.Critical"
+                    },
+                    "critical-knife": {
+                        "label": "SF2E.Trait.CriticalKnife",
+                        "description": "SF2E.TraitDescription.Critical"
+                    },
+                    "critical-mental": {
+                        "label": "SF2E.Trait.CriticalMental",
+                        "description": "SF2E.TraitDescription.Critical"
+                    },
+                    "critical-plasma": {
+                        "label": "SF2E.Trait.CriticalPlasma",
+                        "description": "SF2E.TraitDescription.Critical"
+                    },
+                    "critical-shock": {
+                        "label": "SF2E.Trait.CriticalShock",
+                        "description": "SF2E.TraitDescription.Critical"
+                    },
+                    "critical-sonic": {
+                        "label": "SF2E.Trait.CriticalSonic",
+                        "description": "SF2E.TraitDescription.Critical"
+                    },
+                    "grenade": {
+                        "label": "SF2E.Trait.Grenade",
+                        "description": "SF2E.TraitDescription.Grenade"
+                    },
+                    "modular-arc-or-nonlethal": {
+                        "label": "SF2E.Trait.ModularArcOrNonlethal",
+                        "description": "PF2E.TraitDescriptionModular"
+                    },
+                    "modular-c-or-f": {
+                        "label": "SF2E.Trait.ModularCOrF",
+                        "description": "PF2E.TraitDescriptionModular"
+                    },
+                    "modular-c-or-void": {
+                        "label": "SF2E.Trait.ModularCOrVoid",
+                        "description": "PF2E.TraitDescriptionModular"
+                    },
+                    "modular-s-or-void": {
+                        "label": "SF2E.Trait.ModularSOrVoid",
+                        "description": "PF2E.TraitDescriptionModular"
+                    },
+                    "powered": {
+                        "label": "SF2E.Trait.Powered",
+                        "description": "SF2E.TraitDescription.Powered"
+                    },
+                    "professional-crafting": {
+                        "label": "SF2E.Trait.ProfessionalCrafting",
+                        "description": "SF2E.TraitDescription.Professional"
+                    },
+                    "professional-computers": {
+                        "label": "SF2E.Trait.ProfessionalComputers",
+                        "description": "SF2E.TraitDescription.Professional"
+                    },
+                    "professional-deception": {
+                        "label": "SF2E.Trait.ProfessionalDeception",
+                        "description": "SF2E.TraitDescription.Professional"
+                    },
+                    "professional-performance": {
+                        "label": "SF2E.Trait.ProfessionalPerformance",
+                        "description": "SF2E.TraitDescription.Professional"
+                    },
+                    "ranged-shove": {
+                        "label": "SF2E.Trait.RangedShove",
+                        "description": "SF2E.TraitDescription.RangedShove"
+                    },
+                    "solarian": "SF2E.Trait.Solarian",
+                    "tech": {
+                        "label": "SF2E.Trait.Tech",
+                        "description": "SF2E.TraitDescription.Tech"
+                    },
+                    "thought": {
+                        "label": "SF2E.Trait.Thought",
+                        "description": "SF2E.TraitDescription.Thought"
+                    },
+                    "tracking-1": {
+                        "label": "SF2E.Trait.Tracking1",
+                        "description": "SF2E.TraitDescription.Tracking"
+                    },
+                    "tracking-2": {
+                        "label": "SF2E.Trait.Tracking2",
+                        "description": "SF2E.TraitDescription.Tracking"
+                    },
+                    "tracking-3": {
+                        "label": "SF2E.Trait.Tracking3",
+                        "description": "SF2E.TraitDescription.Tracking"
+                    },
+                    "unwieldy": {
+                        "label": "SF2E.Trait.Unwieldy",
+                        "description": "SF2E.TraitDescription.Unwieldy"
+                    },
+                    "upgrade": {
+                        "label": "SF2E.Trait.Upgrade",
+                        "description": "SF2E.TraitDescription.Upgrade"
+                    },
+                    "barathu": "SF2E.Trait.Barathu",
+                    "borai": "SF2E.Trait.Borai",
+                    "kasatha": "SF2E.Trait.Kasatha",
+                    "pahtra": "SF2E.Trait.Pahtra",
+                    "prismeni": "SF2E.Trait.Prismeni",
+                    "shirren": "SF2E.Trait.Shirren",
+                    "skittermander": "SF2E.Trait.Skittermander",
+                    "vesk": "SF2E.Trait.Vesk",
+                    "mag-1": "SF2E.Trait.Mag1",
+                    "mag-3": "SF2E.Trait.Mag3",
+                    "mag-4": "SF2E.Trait.Mag4",
+                    "mag-5": "SF2E.Trait.Mag5",
+                    "mag-6": "SF2E.Trait.Mag6",
+                    "mag-7": "SF2E.Trait.Mag7",
+                    "mag-8": "SF2E.Trait.Mag8",
+                    "mag-10": "SF2E.Trait.Mag10",
+                    "mag-20": "SF2E.Trait.Mag20",
+                    "mag-30": "SF2E.Trait.Mag30"
+                }
+            }
+        }
+    },
+    "languages": [
+        {
+            "lang": "en",
+            "name": "Main (English)",
+            "path": "lang/en.json",
+            "flags": {}
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    }
+}
