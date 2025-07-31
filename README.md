@@ -8,6 +8,9 @@ Note that this repository is in a pre-release state, no data will be made availa
 ## Temporary Repository
 This repository is a temporary one, made to house the module until we can reconfigure the system repository, from the end user perspective the switch will just be accepting a change of manifest URL during a future update. For contributors this will be changing what repository you submit PRs to.
 
+## Redundant Content
+This repository is meant to introduce Starfinder content, as such it does not include content already published for Pathfinder, even if that content was published in Starfinder Player Core. Examples include the *heal* or *avatar* spells, the Titan Wrestler skill feat, and more. The Starfinder 2e system will have its own copies of these items when it releases.
+
 ## Issues and Contributions
 Please report any issues or data discrepancies on the [issue tracker](https://github.com/TikaelSol/sf2e-anachronism/issues).
 
