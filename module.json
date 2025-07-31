@@ -61,6 +61,19 @@
             "flags": {}
         },
         {
+            "name": "bestiary-effects",
+            "label": "Bestiary Effects",
+            "path": "packs/bestiary-effects",
+            "type": "Item",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
             "name": "class-features",
             "label": "Class Features",
             "path": "packs/class-features",
@@ -241,6 +254,19 @@
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
+        },
+        {
+            "name": "starfinder-society-bestiary",
+            "label": "Starfinder Society",
+            "path": "packs/starfinder-society-bestiary",
+            "type": "Actor",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
         }
     ],
     "packFolders": [
@@ -254,7 +280,8 @@
                     "sorting": "m",
                     "color": "#9DD9E5",
                     "packs": [
-                        "standalone-adventure-bestiary"
+                        "standalone-adventure-bestiary",
+                        "starfinder-society-bestiary"
                     ]
                 },
                 {
@@ -271,6 +298,7 @@
                     "sorting": "m",
                     "color": "#B9519E",
                     "packs": [
+                        "bestiary-effects",
                         "conditions",
                         "equipment-effects",
                         "feat-effects",
@@ -394,6 +422,7 @@
                     "pulsecaster-pistol": "SF2E.BaseWeapon.PulsecasterPistol",
                     "puzzleblade": "SF2E.BaseWeapon.Puzzleblade",
                     "reaction-breacher": "SF2E.BaseWeapon.ReactionBreacher",
+                    "reality-ripper": "SF2E.BaseWeapon.RealityRipper",
                     "rotating-pistol": "SF2E.BaseWeapon.RotatingPistol",
                     "rotolaser": "SF2E.BaseWeapon.Rotolaser",
                     "scattergun": "SF2E.BaseWeapon.Scattergun",
@@ -401,6 +430,7 @@
                     "seeker-rifle": "SF2E.BaseWeapon.SeekerRifle",
                     "semi-auto-pistol": "SF2E.BaseWeapon.SemiAutoPistol",
                     "shirren-eye-rifle": "SF2E.BaseWeapon.ShirrenEyeRifle",
+                    "shuriken-drone": "SF2E.BaseWeapon.ShurikenDrone",
                     "shock-pad": "SF2E.BaseWeapon.ShockPad",
                     "shock-truncheon": "SF2E.BaseWeapon.ShockTruncheon",
                     "shooting-starknife": "SF2E.BaseWeapon.ShootingStarknife",
@@ -462,6 +492,7 @@
                     "contemplative": "SF2E.Trait.Contemplative",
                     "dragonkin": "SF2E.Trait.Dragonkin",
                     "drift": "SF2E.Trait.Drift",
+                    "ikeshti": "SF2E.Trait.Ikeshti",
                     "jinsul": "SF2E.Trait.Jinsul",
                     "kalo": "SF2E.Trait.Kalo",
                     "kasatha": "SF2E.Trait.Kasatha",
@@ -469,12 +500,12 @@
                     "kothama": "SF2E.Trait.Kothama",
                     "kucharn": "SF2E.Trait.Kucharn",
                     "lashunta": "SF2E.Trait.Lashunta",
-                    "midwife": "SF2E.Trait.Midwife",
                     "pahtra": "SF2E.Trait.Pahtra",
                     "prismeni": "SF2E.Trait.Prismeni",
                     "robot": "SF2E.Trait.Robot",
                     "sarcesian": "SF2E.Trait.Sarcesian",
                     "shirren": "SF2E.Trait.Shirren",
+                    "shobhad": "SF2E.Trait.Shobhad",
                     "skittermander": "SF2E.Trait.Skittermander",
                     "tech": "SF2E.Trait.Tech",
                     "vesk": "SF2E.Trait.Vesk",
@@ -522,6 +553,8 @@
                         "description": "SF2E.TraitDescription.Disharmony"
                     },
                     "dragonkin": "SF2E.Trait.Dragonkin",
+                    "envoy": "SF2E.Trait.Envoy",
+                    "ikeshti": "SF2E.Trait.Ikeshti",
                     "kalo": "SF2E.Trait.Kalo",
                     "kasatha": "SF2E.Trait.Kasatha",
                     "khizar": "SF2E.Trait.Khizar",
@@ -530,11 +563,16 @@
                         "label": "SF2E.Trait.Manifestation",
                         "description": "SF2E.TraitDescription.Manifestation"
                     },
+                    "mystic": "SF2E.Trait.Mystic",
+                    "operative": "SF2E.Trait.Operative",
                     "pahtra": "SF2E.Trait.Pahtra",
                     "prismeni": "SF2E.Trait.Prismeni",
                     "sarcesian": "SF2E.Trait.Sarcesian",
                     "shirren": "SF2E.Trait.Shirren",
+                    "shobhad": "SF2E.Trait.Shobhad",
                     "skittermander": "SF2E.Trait.Skittermander",
+                    "soldier": "SF2E.Trait.Soldier",
+                    "solarian": "SF2E.Trait.Solarian",
                     "suppressed": {
                         "label": "SF2E.Trait.Suppressed",
                         "description": "SF2E.TraitDescription.Suppressed"
@@ -550,6 +588,7 @@
                     "traversal":  "SF2E.Trait.Traversal",
                     "vesk": "SF2E.Trait.Vesk",
                     "vlaka": "SF2E.Trait.Vlaka",
+                    "witchwarper": "SF2E.Trait.Witchwarper",
                     "zone": {
                         "label": "SF2E.Trait.Zone",
                         "description": "SF2E.TraitDescription.Zone"
@@ -562,7 +601,6 @@
                     },
                     "gravity": "SF2E.Trait.Gravity",
                     "mystic": "SF2E.Trait.Mystic",
-                    "technomancer":  "SF2E.Trait.Technomancer",
                     "transfer": {
                         "label": "SF2E.Trait.Transfer",
                         "description": "SF2E.TraitDescription.Transfer"
@@ -583,6 +621,10 @@
                         "description": "SF2E.TraitDescription.Biotech"
                     },
                     "ceramic": "SF2E.Trait.Ceramic",
+                    "charm": {
+                        "label": "SF2E.Trait.Charm",
+                        "description": "SF2E.TraitDescription.Charm"
+                    },
                     "compact": {
                         "label": "SF2E.Trait.Compact",
                         "description": "SF2E.TraitDescription.Compact"
@@ -620,6 +662,28 @@
                     "tech": {
                         "label": "SF2E.Trait.Tech",
                         "description": "SF2E.TraitDescription.Tech"
+                    }
+                },
+                "shieldTraits":{
+                    "analog": {
+                        "label": "SF2E.Trait.Analog",
+                        "description": "SF2E.TraitDescription.Analog"
+                    },
+                    "tech": {
+                        "label": "SF2E.Trait.Tech",
+                        "description": "SF2E.TraitDescription.Tech"
+                    },
+                    "compact": {
+                        "label": "SF2E.Trait.Compact",
+                        "description": "SF2E.TraitDescription.Compact"
+                    },
+                    "installed": {
+                        "label": "SF2E.Trait.Installed",
+                        "description": "SF2E.TraitDescription.Installed"
+                    },
+                    "retractable": {
+                        "label": "SF2E.Trait.Retractable",
+                        "description": "SF2E.TraitDescription.Retractable"
                     }
                 },
                 "weaponTraits": {
@@ -671,7 +735,7 @@
                         "label": "SF2E.Trait.AreaLine",
                         "description": "SF2E.TraitDescription.Area"
                     },
-                    "attune": "SF2E.Trait.Attune",
+                    "attuned": "SF2E.Trait.Attuned",
                     "automatic": {
                         "label": "SF2E.Trait.Automatic",
                         "description": "SF2E.TraitDescription.Automatic"
@@ -747,22 +811,6 @@
                     "grenade": {
                         "label": "SF2E.Trait.Grenade",
                         "description": "SF2E.TraitDescription.Grenade"
-                    },
-                    "modular-arc-or-nonlethal": {
-                        "label": "SF2E.Trait.ModularArcOrNonlethal",
-                        "description": "PF2E.TraitDescriptionModular"
-                    },
-                    "modular-c-or-f": {
-                        "label": "SF2E.Trait.ModularCOrF",
-                        "description": "PF2E.TraitDescriptionModular"
-                    },
-                    "modular-c-or-void": {
-                        "label": "SF2E.Trait.ModularCOrVoid",
-                        "description": "PF2E.TraitDescriptionModular"
-                    },
-                    "modular-s-or-void": {
-                        "label": "SF2E.Trait.ModularSOrVoid",
-                        "description": "PF2E.TraitDescriptionModular"
                     },
                     "powered": {
                         "label": "SF2E.Trait.Powered",
