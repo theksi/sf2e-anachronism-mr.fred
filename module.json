@@ -1,10 +1,24 @@
 {
     "id": "sf2e-anachronism",
     "title": "Starfinder Anachronism: Official Starfinder Content Pack for Pathfinder Second Edition",
+    "manifest": "https://github.com/TikaelSol/sf2e-anachronism/releases/latest/download/module.json",
+    "download": "https://github.com/TikaelSol/sf2e-anachronism/releases/latest/download/module.zip",
     "version": "dev",
     "compatibility": {
         "minimum": "13",
         "verified": "13"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+                "compatibility": {
+                    "minimum": "7.2.3"
+                }
+            }
+        ]
     },
     "description": "<p>Official Starfinder 2e content pack for Pathfinder 2e! Add SF2e chracter options, creatures, and items into your PF2e game!</p>",
     "packs": [
@@ -585,7 +599,7 @@
                         "label": "SF2E.Trait.Transfer",
                         "description": "SF2E.TraitDescription.Transfer"
                     },
-                    "traversal":  "SF2E.Trait.Traversal",
+                    "traversal": "SF2E.Trait.Traversal",
                     "vesk": "SF2E.Trait.Vesk",
                     "vlaka": "SF2E.Trait.Vlaka",
                     "witchwarper": "SF2E.Trait.Witchwarper",
@@ -664,7 +678,7 @@
                         "description": "SF2E.TraitDescription.Tech"
                     }
                 },
-                "shieldTraits":{
+                "shieldTraits": {
                     "analog": {
                         "label": "SF2E.Trait.Analog",
                         "description": "SF2E.TraitDescription.Analog"
@@ -894,14 +908,5 @@
             "path": "lang/en.json",
             "flags": {}
         }
-    ],
-    "relationships": {
-        "systems": [
-            {
-                "id": "pf2e",
-                "type": "system",
-                "compatibility": {}
-            }
-        ]
-    }
+    ]
 }
