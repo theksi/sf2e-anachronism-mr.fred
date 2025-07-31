@@ -302,15 +302,6 @@
                     ]
                 },
                 {
-                    "name": "Pregenerated PCs",
-                    "sorting": "m",
-                    "color": "#9DD9E5",
-                    "packs": [
-                        "iconics",
-                        "paizo-pregens"
-                    ]
-                },
-                {
                     "name": "Effects",
                     "sorting": "m",
                     "color": "#B9519E",
@@ -337,7 +328,9 @@
                         "equipment",
                         "feats",
                         "heritages",
-                        "spells"
+                        "spells",
+                        "iconics",
+                        "paizo-pregens"
                     ]
                 }
             ]
