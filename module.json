@@ -6,7 +6,9 @@
         "minimum": "13",
         "verified": "13"
     },
-    "description": "<p>Official Starfinder 2e content pack for Pathfinder 2e! Add SF2e chracter options, creatures, and items into your PF2e game!</p>",
+    "esmodules": [
+        "module/sf2e.mjs"
+    ],
     "packs": [
         {
             "name": "actions",
