@@ -3,6 +3,8 @@ import { initializeActions } from "./actions/index.mjs";
 
 Hooks.once("init", () => {
     CONFIG.PF2E.thrownBaseWeapons?.push("grenade");
+    CONFIG.PF2E.usages["installed-in-a-weapon"] = "PF2E.TraitInstalledInAWeapon";
+    CONFIG.PF2E.usages["installed-in-armor"] = "PF2E.TraitInstalledInArmor";
     initializeActions();
 });
 
