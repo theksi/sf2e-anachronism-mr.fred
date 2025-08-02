@@ -337,7 +337,7 @@
         "range": null,
         "slug": "twin-solar-weapon",
         "traits": [
-          "attune",
+          "attuned",
           "free-hand",
           "solarian"
         ],
