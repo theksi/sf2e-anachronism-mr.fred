@@ -15,15 +15,16 @@ Hooks.on("renderCharacterSheetPF2e", (sheet, html) => {
     for (const strikeRow of html.find("[data-strike]")) {
         const action = actor.system.actions[strikeRow.dataset.actionIndex];
         const item = action.item;
-        const isArea = item.system.traits.value.some((t) => t.startsWith("area-"));
+        const isArea = item.system.traits.value.some((t) => t.startsWith("area-") || t === "grenade");
         const isAutomatic = item.system.traits.value.includes("automatic");
         if (!isArea && !isAutomatic) continue;
 
         const auxActions = strikeRow.querySelector(".auxiliary-actions.weapon-drawn");
         if (!auxActions) continue;
 
+        const areaActions = item.system.traits.value.some((t) => t === "grenade") ? 1 : 2;
         const label = game.i18n.localize(`SF2E.Actions.${isArea ? "AreaFire" : "AutoFire"}.Title`);
-        const button = createHTMLElement(`<button class="use-action" type="button"><span>${label}</span> <span class="action-glyph">2</span></button>`);
+        const button = createHTMLElement(`<button class="use-action" type="button"><span>${label}</span> <span class="action-glyph">${areaActions}</span></button>`);
         auxActions.prepend(button);
         button.addEventListener("click", () => {
             createAreaFireMessage(item);

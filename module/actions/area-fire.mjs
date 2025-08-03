@@ -4,8 +4,10 @@ const EXTRA_AREA_OPTIONS = ["damaging-effect", "area-damage", "area-effect"];
 /** Posts a new area fire or auto fire weapon to the chat depending on the weapon */
 async function createAreaFireMessage(weapon) {
     const actor = weapon.actor;
-    const isArea = weapon.system.traits.value.some((t) => t.startsWith("area-"));
+    const isGrenade = weapon.system.traits.value.some((t) => t === "grenade");
+    const isArea = weapon.system.traits.value.some((t) => t.startsWith("area-")) || isGrenade;
     const key = isArea ? "AreaFire" : "AutoFire";
+    const actionCost = isGrenade ? 1 : 2
 
     const savingThrow = calculateSaveDC(weapon);
     const areaLabel = createAreaLabel(calculateArea(weapon));
@@ -20,7 +22,7 @@ async function createAreaFireMessage(weapon) {
                 label: CONFIG.PF2E.actionTraits[t],
                 description: CONFIG.PF2E.traitsDescriptions[t]
             })),
-            actionCost: 2,
+            actionCost: actionCost,
             description: game.i18n.localize(`SF2E.Actions.${key}.Description`),
         },
         areaLabel,
@@ -115,10 +117,14 @@ function listenAreaFireMessage(message, html) {
 function calculateArea(weapon) {
     const traits = weapon.system.traits.value;
     const isAutomatic = traits.includes("automatic");
-    const area = isAutomatic ? "cone" : weapon.system.traits.value.find((t) => t.startsWith("area-"))?.replace("area-", "");
-    if (area.startsWith("burst")) {
+    const isGrenade = weapon.system.traits.value.some((t) => t === "grenade");
+    const area = isAutomatic ? "cone" : isGrenade ? weapon.system.description.value.match(/Template\[burst\|distance:(?<distance>\d+)\]/).groups.distance : weapon.system.traits.value.find((t) => t.startsWith("area-"))?.replace("area-", "");
+    if (area.startsWith("burst") && !isGrenade) {
         const value = Number(/burst-(\d*)/.exec(area)[1]);
         return { type: "burst", value };
+    } else if (isGrenade) {
+        const value = Number(area);
+        return { type: "burst", value}
     } else {
         // Set the range based on the weapon's range increment.
         // If its automatic we halve the range and round to the nearest multiple of 5
