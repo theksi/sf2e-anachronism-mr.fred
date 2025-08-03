@@ -117,7 +117,7 @@ function calculateArea(weapon) {
     const isAutomatic = traits.includes("automatic");
     const area = isAutomatic ? "cone" : weapon.system.traits.value.find((t) => t.startsWith("area-"))?.replace("area-", "");
     if (area.startsWith("burst")) {
-        const value = Number(/burst-(\d*)-ft/.exec(area)[1]);
+        const value = Number(/burst-(\d*)/.exec(area)[1]);
         return { type: "burst", value };
     } else {
         // Set the range based on the weapon's range increment.
