@@ -595,7 +595,7 @@
                     },
                     "Shadow": {
                         "AdvancedEpiphany": "You learn the @UUID[Compendium.sf2e-anachronism.spells.Item.rluzzX2ml4yFWnYw] focus spell.",
-                        "GreaterEpiphany": "You learn the @UUID[CCompendium.sf2e-anachronism.spells.Item.pgjlPNfXCpEYyLVu] focus spell.",
+                        "GreaterEpiphany": "You learn the @UUID[Compendium.sf2e-anachronism.spells.Item.pgjlPNfXCpEYyLVu] focus spell.",
                         "Harmony": {
                             "Addendum": "When you Transfer Vitality, the target's shadow darkens and swells, reducing bright light within a @Template[type:emanation|distance:10] of the target to dim light. This is a form of magical darkness and can overcome non-magical light sources or attempt to counteract magical light. The target becomes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} while in this dim light and can use the concealed condition to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}. This lasts until the end of your next turn."
                         },
