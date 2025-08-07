@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Picking an superior lock requires five successful [[/act pick-a-lock dc=30]]{DC 30 Thievery} checks.</p>"
+      "value": "<p>Picking a superior lock requires five successful [[/act pick-a-lock dc=30]]{DC 30 Thievery} checks.</p>"
     },
     "rules": [],
     "slug": "lock-superior",
