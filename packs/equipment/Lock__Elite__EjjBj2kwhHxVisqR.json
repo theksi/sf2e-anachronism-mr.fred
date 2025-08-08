@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Picking an advanced lock requires six successful [[/act pick-a-lock dc=40]]{DC 40 Thievery} checks.</p>"
+      "value": "<p>Picking an elite lock requires six successful [[/act pick-a-lock dc=40]]{DC 40 Thievery} checks.</p>"
     },
     "rules": [],
     "slug": "lock-elite",
