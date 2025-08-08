@@ -70,6 +70,33 @@
     },
     "counteraction": false,
     "overlays": {
+      "bTPhCN8qHDYgs8Bd": {
+        "name": "Injury Echo (Bludgeoning)",
+        "system": {
+          "damage": {
+            "2kU3mhyAecpOrFci": {
+              "formula": "1d8",
+              "kinds": [
+                "damage"
+              ],
+              "type": "bludgeoning",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "heightening": {
+            "type": "interval",
+            "interval": 2,
+            "damage": {
+              "2kU3mhyAecpOrFci": "1d8"
+            },
+            "area": 0
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
       "Nz2Dt9pkBviU7YNx": {
         "name": "Injury Echo (Piercing)",
         "system": {
@@ -87,7 +114,7 @@
           },
           "heightening": {
             "type": "interval",
-            "interval": 1,
+            "interval": 2,
             "damage": {
               "X6aUcgmF4twJh5gL": "1d8"
             },
@@ -114,7 +141,7 @@
           },
           "heightening": {
             "type": "interval",
-            "interval": 1,
+            "interval": 2,
             "damage": {
               "EotUm3XBubhQrtWi": "1d8"
             },
@@ -122,33 +149,6 @@
           }
         },
         "sort": 3,
-        "overlayType": "override"
-      },
-      "bTPhCN8qHDYgs8Bd": {
-        "name": "Injury Echo (Bludgeoning)",
-        "system": {
-          "damage": {
-            "2kU3mhyAecpOrFci": {
-              "formula": "1d8",
-              "kinds": [
-                "damage"
-              ],
-              "type": "bludgeoning",
-              "category": null,
-              "materials": [],
-              "applyMod": false
-            }
-          },
-          "heightening": {
-            "type": "interval",
-            "interval": 1,
-            "damage": {
-              "2kU3mhyAecpOrFci": "1d8"
-            },
-            "area": 0
-          }
-        },
-        "sort": 1,
         "overlayType": "override"
       }
     }
@@ -168,7 +168,7 @@
     "exportSource": null,
     "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "_key": "!items!sNUvbMoMeLTnYJm8"
 }

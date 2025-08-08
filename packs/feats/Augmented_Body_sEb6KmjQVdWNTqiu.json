@@ -36,7 +36,7 @@
       }
     },
     "onlyLevel1": false,
-    "maxTakable": 1,
+    "maxTakable": null,
     "actionType": {
       "value": "passive"
     },
