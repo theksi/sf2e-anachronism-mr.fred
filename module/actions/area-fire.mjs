@@ -115,11 +115,15 @@ function listenAreaFireMessage(message, html) {
 
 /** Determines the area of an area or automatic weapon based on its traits */
 function calculateArea(weapon) {
+    const grenadeReg = /Template\[burst\|distance:(?<distance>\d+)\]/
+    const description = weapon.system.description.value;
     const traits = weapon.system.traits.value;
     const isAutomatic = traits.includes("automatic");
     const isGrenade = weapon.system.traits.value.some((t) => t === "grenade");
-    const area = isAutomatic ? "cone" : isGrenade ? weapon.system.description.value.match(/Template\[burst\|distance:(?<distance>\d+)\]/).groups.distance : weapon.system.traits.value.find((t) => t.startsWith("area-"))?.replace("area-", "");
-    if (area.startsWith("burst") && !isGrenade) {
+    const grenadeArea = description.match(grenadeReg) ? description.match(grenadeReg).groups.distance : "burst-5";
+
+    const area = isAutomatic ? "cone" : isGrenade ? grenadeArea : weapon.system.traits.value.find((t) => t.startsWith("area-"))?.replace("area-", "");
+    if (area.startsWith("burst")) {
         const value = Number(/burst-(\d*)/.exec(area)[1]);
         return { type: "burst", value };
     } else if (isGrenade) {
