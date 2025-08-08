@@ -309,6 +309,7 @@
             "Diasporan": "Diasporan",
             "Eoxian": "Eoxian",
             "Jinsul": "Jinsul",
+            "Kalo": "Kalo",
             "Kasatha": "Kasatha",
             "Khizar": "Khizar",
             "Kothama": "Kothama",
@@ -318,12 +319,15 @@
             "PactCommon": "Pact Common",
             "Pahtra": "Pahtra",
             "Prelurian": "Prelurian",
+            "Sarcesian": "Sarcesian",
+            "SarcesianSigned": "Sarcesian (signed)",
             "Shirren": "Shirren",
             "Shobhad": "Shobhad",
             "Triaxian": "Triaxian",
             "Trinary": "Trinary",
             "Vercite": "Vercite",
-            "Vesk": "Vesk"
+            "Vesk": "Vesk",
+            "Vlaka": "Vlaka"
         },
         "NPCAbility": {
             "Hardlight": {

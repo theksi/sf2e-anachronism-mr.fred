@@ -465,6 +465,7 @@
                     "diasporan": "SF2E.Language.Diasporan",
                     "eoxian": "SF2E.Language.Eoxian",
                     "jinsul": "SF2E.Language.Jinsul",
+                    "kalo": "SF2E.Language.Kalo",
                     "kasatha": "SF2E.Language.Kasatha",
                     "khizar": "SF2E.Language.Khizar",
                     "kothama": "SF2E.Language.Kothama",
@@ -472,11 +473,14 @@
                     "pact-common": "SF2E.Language.PactCommon",
                     "pahtra": "SF2E.Language.Pahtra",
                     "prelurian": "SF2E.Language.Prelurian",
+                    "sarcesian": "SF2E.Language.Sarcesian",
+                    "sarcesian-signed": "SF2E.Language.SarcesianSigned",
                     "shirren": "SF2E.Language.Shirren",
                     "triaxian": "SF2E.Language.Triaxian",
                     "trinary": "SF2E.Language.Trinary",
                     "vercite": "SF2E.Language.Vercite",
                     "vesk": "SF2E.Language.Vesk",
+                    "vlaka": "SF2E.Language.Vlaka",
                     "morandomandranan": "SF2E.Language.Morandomandranan"
                 },
                 "weaponGroups": {
