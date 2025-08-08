@@ -70,7 +70,8 @@
     },
     "languages": {
       "value": [
-        "common"
+        "common",
+        "kalo"
       ],
       "custom": ""
     },
@@ -100,9 +101,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3",
+    "systemVersion": "7.3.1",
     "exportSource": null
   },
   "_id": "23MA5Ee7ExUfzrqk",

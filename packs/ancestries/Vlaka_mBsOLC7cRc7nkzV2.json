@@ -63,7 +63,8 @@
     },
     "languages": {
       "value": [
-        "common"
+        "common",
+        "vlaka"
       ],
       "custom": ""
     },
@@ -100,9 +101,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3",
+    "systemVersion": "7.3.1",
     "exportSource": null
   },
   "_key": "!items!mBsOLC7cRc7nkzV2"
