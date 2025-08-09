@@ -343,7 +343,7 @@
                 "None": "None (Pathfinder)"
             }
         },
-        "Shield":{
+        "Shield": {
             "Base": {
                 "CarbonShield": "Carbon Shield",
                 "CompactShield": "Compact Shield",
@@ -515,7 +515,7 @@
                 "Prompt": "Select a hellknight order"
             },
             "Ikeshti": {
-                "PresistentTactics": {
+                "PersistentTactics": {
                     "PuffUp": "Puff Up",
                     "ShedSkin": "Shed Skin",
                     "SquirtBlood": "Squirt Blood"
@@ -539,6 +539,11 @@
                 "WeaponFamiliarity": {
                     "AdvancedWeapons": "Advanced Kasathan Weapons",
                     "MartialWeapons": "Martial Kasathan Weapons"
+                }
+            },
+            "Khizar": {
+                "MultiStemmed": {
+                    "Prompt": "Choose one khizar heritage."
                 }
             },
             "MartialProficiency": {
@@ -567,23 +572,26 @@
                         },
                         "GreaterEpiphany": "You learn the @UUID[Compendium.sf2e-anachronism.spells.Item.DZOjyZBZUrzkw5q2] epiphany spell.",
                         "Harmony": {
-                            "Addendum": "When you Transfer Vitality, attempt to counteract one affliction affecting the target, or attempt to counteract one effect of your choice imposing one of the following conditions on the target: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}."
+                            "Addendum": "When you Transfer Vitality, choose an elemental trait: air, earth, fire, metal, water, or wood. If one or more of your elemental epiphanies are active, you must select the elemental trait you chose as part of casting those spells. Until the end of their next turn, the target’s next Strike deals damage based on the chosen trait (your choice), rather than its typical damage type: electricity or sonic for air, bludgeoning or piercing for earth, acid or slashing for metal, fire for fire, bludgeoning or cold for water, or piercing or poison for wood."
                         },
                         "InitialEpiphany": "You learn the @UUID[Compendium.sf2e-anachronism.spells.Item.d5dmu4HZ3YyrwcaF] epiphany spell.",
                         "PerfectHarmony": {
-                            "AddendumCounteract": "In addition, if you didn't counteract the effect, but you would've if its counteract rank were 2 lower, instead suppress the effect until the beginning of your next turn. The effect's duration doesn't elapse while it's suppressed.",
-                            "AddendumExpanded": "When you Transfer Vitality, attempt to counteract one affliction affecting the target, or attempt to counteract one effect of your choice imposing one of the following conditions on the target: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}, and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}."
-                        },
-                        "PerfectHarmonyLabelOne": "Perfect Harmony Resistance",
-                        "PerfectHarmonyLabelTwo": "Second Perfect Harmony Resistance",
-                        "PerfectHarmonyTransfer": "When you heal a bonded ally with Transfer Vitality, your ally gains resistance equal to half your mystic level to the two damage types chosen during your daily preparations until the beginning of your next turn."
+                            "Addendum": "When you heal a bonded ally with Transfer Vitality, your ally gains resistance equal to half your mystic level to the two damage types chosen during your daily preparations until the beginning of your next turn.",
+                            "LabelOne": "Perfect Harmony Resistance",
+                            "PerfectHarmonyLabelTwo": "Second Perfect Harmony Resistance"
+                        }
                     },
                     "Healing": {
                         "AdvancedEpiphany": "You learn the @UUID[Compendium.sf2e-anachronism.spells.Item.zzi7LUKxKNWr5GsG] focus spell.",
                         "GreaterEpiphany": "You learn the @UUID[Compendium.sf2e-anachronism.spells.Item.MTulATAiOZfZNQ9d] focus spell.",
-                        "Harmony": "You can choose for your healing spells and abilities to restore Hit Points to creatures with void healing as though the action had the void trait. Whenever you heal a bonded creature and restore them to their maximum Hit Points, your vitality network regains the excess Hit Points the spell could have restored, up to your character level. Temporary Hit Points do not trigger this harmony.",
+                        "Harmony": {
+                            "Addendum": "When you Transfer Vitality, attempt to counteract one affliction affecting the target, or attempt to counteract one effect of your choice imposing one of the following conditions on the target: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}."
+                        },
                         "InitialEpiphany": "You learn the @UUID[Compendium.sf2e-anachronism.spells.Item.d7Mj4nUQe8wg1mV7] focus spell.",
-                        "PerfectHarmony": "Whenever you @UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG]{Transfer Vitality} to a single target, attempt to counteract any one affliction affecting that ally, or attempt to counteract an effect of your choice imposing one of these conditions: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}. If you didn't counteract the effect, but you would have if its counteract rank were 2 lower, instead suppress the effect until the beginning of your next turn. The effect's duration doesn't elapse while it's suppressed."
+                        "PerfectHarmony": {
+                            "AddendumCounteract": "In addition, if you didn't counteract the effect, but you would've if its counteract rank were 2 lower, instead suppress the effect until the beginning of your next turn. The effect's duration doesn't elapse while it's suppressed.",
+                            "AddendumExpanded": "When you Transfer Vitality, attempt to counteract one affliction affecting the target, or attempt to counteract one effect of your choice imposing one of the following conditions on the target: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}, and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}."
+                        }
                     },
                     "Prompt": "Select a connection.",
                     "Rhythm": {
