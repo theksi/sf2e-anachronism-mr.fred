@@ -1,11 +1,15 @@
 const MODULE_ID = "sf2e-anachronism";
 const EXTRA_AREA_OPTIONS = ["damaging-effect", "area-damage", "area-effect"];
 
+const grenadeReg = /Template\[burst\|distance:(?<distance>\d+)\]/
+
 /** Posts a new area fire or auto fire weapon to the chat depending on the weapon */
 async function createAreaFireMessage(weapon) {
     const actor = weapon.actor;
-    const isArea = weapon.system.traits.value.some((t) => t.startsWith("area-"));
+    const isGrenade = weapon.system.traits.value.some((t) => t === "grenade");
+    const isArea = weapon.system.traits.value.some((t) => t.startsWith("area-")) || isGrenade;
     const key = isArea ? "AreaFire" : "AutoFire";
+    const actionCost = isGrenade ? 1 : 2
 
     const savingThrow = calculateSaveDC(weapon);
     const areaLabel = createAreaLabel(calculateArea(weapon));
@@ -20,7 +24,7 @@ async function createAreaFireMessage(weapon) {
                 label: CONFIG.PF2E.actionTraits[t],
                 description: CONFIG.PF2E.traitsDescriptions[t]
             })),
-            actionCost: 2,
+            actionCost: actionCost,
             description: game.i18n.localize(`SF2E.Actions.${key}.Description`),
         },
         areaLabel,
@@ -114,6 +118,14 @@ function listenAreaFireMessage(message, html) {
 /** Determines the area of an area or automatic weapon based on its traits */
 function calculateArea(weapon) {
     const traits = weapon.system.traits.value;
+
+    if (weapon.system.traits.value.some((t) => t === "grenade")) {
+        const description = weapon.system.description.value;
+        const areaMatch = description.match(grenadeReg);
+        const value = Number(areaMatch?.groups.distance ?? 5);
+        return { type: "burst", value}
+    }
+
     const isAutomatic = traits.includes("automatic");
     const area = isAutomatic ? "cone" : weapon.system.traits.value.find((t) => t.startsWith("area-"))?.replace("area-", "");
     if (area.startsWith("burst")) {
