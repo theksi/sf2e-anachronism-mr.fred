@@ -75,7 +75,8 @@
       "misidentified": {}
     },
     "usage": {
-      "value": "held-in-one-hand"
+      "value": "held-in-one-hand",
+      "canBeAmmo": false
     },
     "category": "simple",
     "group": "grenade",
@@ -83,7 +84,7 @@
       "value": 0
     },
     "damage": {
-      "dice": 12,
+      "dice": 14,
       "die": "d8",
       "damageType": "piercing",
       "persistent": null
@@ -96,6 +97,7 @@
     "reload": {
       "value": "-"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -115,9 +117,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "_id": "weV9f340wsszD1rD",
   "_key": "!items!weV9f340wsszD1rD"
