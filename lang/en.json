@@ -23,9 +23,7 @@
                 }
             }
         },
-        "TraitRatfolk": "Ysoki",
-        "TraitInstalledInArmor": "Installed in armor",
-        "TraitInstalledInAWeapon": "Installed in a weapon"
+        "TraitRatfolk": "Ysoki"
     },
     "SF2E": {
         "Actions": {

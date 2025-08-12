@@ -8,7 +8,24 @@
       "gm": "",
       "value": "<p>This module overheats the weapon's striking edge and ammunition. The weapon deals an additional @Damage[1d6[fire]] damage on a successful Strike, plus @Damage[1d10[persistent,fire]] damage on a critical hit.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "DamageDice",
+        "damageType": "fire",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "selector": "{item|parentItem.id}-damage"
+      },
+      {
+        "key": "DamageDice",
+        "damageType": "fire",
+        "diceNumber": 1,
+        "dieSize": "d10",
+        "selector": "{item|parentItem.id}-damage",
+        "category": "persistent",
+        "critical": true
+      }
+    ],
     "slug": "flaming-module-commercial",
     "_migration": {
       "version": 0.94,
@@ -88,7 +105,7 @@
     "exportSource": null,
     "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,
