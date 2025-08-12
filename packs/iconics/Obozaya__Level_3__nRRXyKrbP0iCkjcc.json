@@ -1521,7 +1521,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Doshko (Commercial)",
+      "name": "Doshko",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -1619,6 +1619,7 @@
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1650,7 +1651,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.3"
       },
@@ -1663,7 +1664,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Machine Gun (Tactical)",
+      "name": "Machine Gun",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -1760,6 +1761,7 @@
         "reload": {
           "value": "2"
         },
+        "grade": "tactical",
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1792,9 +1794,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 1000000,
       "_id": "2bVjfZhg9cpPyWzz",
@@ -2444,7 +2446,7 @@
     },
     {
       "folder": "jjcF0lfrc3ZIoKv1",
-      "name": "Hidden Soldier Armor (Commercial)",
+      "name": "Hidden Soldier Armor",
       "type": "armor",
       "effects": [],
       "system": {
@@ -2527,6 +2529,7 @@
         "dexCap": 1,
         "checkPenalty": -3,
         "speedPenalty": -10,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -2541,7 +2544,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.3"
       },
