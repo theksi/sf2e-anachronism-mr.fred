@@ -1961,12 +1961,118 @@
         "dexCap": 3,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
           "property": []
         },
-        "subitems": [],
+        "subitems": [
+          {
+            "folder": "cTmXSS0L1MClVGP3",
+            "name": "Darkvision Visor",
+            "type": "equipment",
+            "effects": [],
+            "system": {
+              "description": {
+                "gm": "",
+                "value": "<p>This visor wraps around your visual organs, enhancing your natural senses. You gain darkvision.</p>"
+              },
+              "rules": [
+                {
+                  "key": "Sense",
+                  "selector": "darkvision"
+                }
+              ],
+              "slug": "darkvision-visor",
+              "_migration": {
+                "version": 0.942,
+                "lastMigration": null,
+                "previous": {
+                  "schema": 0.94,
+                  "foundry": "13.347",
+                  "system": "7.3.1"
+                }
+              },
+              "traits": {
+                "otherTags": [],
+                "value": [
+                  "tech"
+                ],
+                "rarity": "common"
+              },
+              "publication": {
+                "title": "Starfinder Player Core",
+                "authors": "",
+                "license": "ORC",
+                "remaster": true
+              },
+              "level": {
+                "value": 1
+              },
+              "quantity": 1,
+              "baseItem": null,
+              "bulk": {
+                "value": 0.1
+              },
+              "hp": {
+                "value": 0,
+                "max": 0
+              },
+              "hardness": 0,
+              "price": {
+                "value": {
+                  "sp": 150
+                }
+              },
+              "equipped": {
+                "carryType": "installed",
+                "handsHeld": 0
+              },
+              "containerId": null,
+              "size": "med",
+              "material": {
+                "type": null,
+                "grade": null
+              },
+              "identification": {
+                "status": "identified",
+                "unidentified": {
+                  "name": "Unusual Object",
+                  "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+                  "data": {
+                    "description": {
+                      "value": ""
+                    }
+                  }
+                },
+                "misidentified": {}
+              },
+              "usage": {
+                "value": "installed-in-armor"
+              },
+              "subitems": []
+            },
+            "img": "modules/sf2e-anachronism/art/icons/abilities/purple-third-eye.webp",
+            "flags": {},
+            "_stats": {
+              "compendiumSource": "Compendium.sf2e-anachronism.equipment.Item.7psnMwQ95uO5apQz",
+              "duplicateSource": null,
+              "exportSource": null,
+              "coreVersion": "13.347",
+              "systemId": "pf2e",
+              "systemVersion": "7.3.1"
+            },
+            "ownership": {
+              "default": 0,
+              "CmdglLq38DpgHzdd": 3,
+              "O8OxKK20UjX7W372": 3,
+              "DELswE6aueREB767": 3
+            },
+            "sort": 1400000,
+            "_id": "z6gk4aTTo70aXdbT"
+          }
+        ],
         "specific": null
       },
       "img": "icons/equipment/chest/breastplate-banded-steel-studded.webp",
@@ -1975,9 +2081,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 1400000,
       "_id": "zaX2JwtUtXFlxJc1",
@@ -5983,8 +6089,9 @@
           }
         },
         "equipped": {
-          "carryType": "worn",
-          "invested": null
+          "carryType": "implanted",
+          "invested": null,
+          "handsHeld": 0
         },
         "containerId": null,
         "size": "med",
@@ -6018,117 +6125,15 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "_id": "MVHnQtBLN9oitOFA",
       "ownership": {
         "default": 0
       },
       "_key": "!actors.items!ks7QxhpgX3E3fRe5.MVHnQtBLN9oitOFA"
-    },
-    {
-      "folder": "cTmXSS0L1MClVGP3",
-      "name": "Darkvision Visor (Microcord Armor)",
-      "type": "equipment",
-      "effects": [],
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This visor wraps around your visual organs, enhancing your natural senses. You gain darkvision.</p>"
-        },
-        "rules": [
-          {
-            "key": "Sense",
-            "selector": "darkvision"
-          }
-        ],
-        "slug": "darkvision-visor",
-        "_migration": {
-          "version": 0.94,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.932,
-            "foundry": "13.346",
-            "system": "7.2.3"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "tech"
-          ],
-          "rarity": "common"
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "level": {
-          "value": 1
-        },
-        "quantity": 1,
-        "baseItem": null,
-        "bulk": {
-          "value": 0.1
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "sp": 150
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "Unusual Object",
-            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "other"
-        },
-        "subitems": []
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/purple-third-eye.webp",
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "sort": 1400000,
-      "_id": "5DfF7eLb79C6qFxj",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!ks7QxhpgX3E3fRe5.5DfF7eLb79C6qFxj"
     }
   ],
   "flags": {

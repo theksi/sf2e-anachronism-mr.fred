@@ -4231,7 +4231,213 @@
           "resilient": 0,
           "property": []
         },
-        "subitems": [],
+        "subitems": [
+          {
+            "folder": "cTmXSS0L1MClVGP3",
+            "name": "Jetpack (Commercial)",
+            "type": "equipment",
+            "effects": [],
+            "system": {
+              "description": {
+                "gm": "",
+                "value": "<p>Boosters attached to your armor allow you to fly.</p><p><strong>Activate—Fly</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>"
+              },
+              "rules": [],
+              "slug": "jetpack-commercial",
+              "_migration": {
+                "version": 0.942,
+                "lastMigration": null,
+                "previous": {
+                  "schema": 0.94,
+                  "foundry": "13.347",
+                  "system": "7.3.1"
+                }
+              },
+              "traits": {
+                "otherTags": [],
+                "value": [
+                  "tech"
+                ],
+                "rarity": "common"
+              },
+              "publication": {
+                "title": "Starfinder Player Core",
+                "authors": "",
+                "license": "ORC",
+                "remaster": true
+              },
+              "level": {
+                "value": 5
+              },
+              "quantity": 1,
+              "baseItem": null,
+              "bulk": {
+                "value": 0.1
+              },
+              "hp": {
+                "value": 0,
+                "max": 0
+              },
+              "hardness": 0,
+              "price": {
+                "value": {
+                  "sp": 1600
+                }
+              },
+              "equipped": {
+                "carryType": "installed",
+                "handsHeld": 0
+              },
+              "containerId": null,
+              "size": "med",
+              "material": {
+                "type": null,
+                "grade": null
+              },
+              "identification": {
+                "status": "identified",
+                "unidentified": {
+                  "name": "Unusual Object",
+                  "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+                  "data": {
+                    "description": {
+                      "value": ""
+                    }
+                  }
+                },
+                "misidentified": {}
+              },
+              "usage": {
+                "value": "installed-in-armor"
+              },
+              "subitems": []
+            },
+            "img": "modules/sf2e-anachronism/art/icons/abilities/yellow-thrusters.webp",
+            "flags": {},
+            "_stats": {
+              "compendiumSource": "Compendium.sf2e-anachronism.equipment.Item.CIZ3Walj6DmiaJGq",
+              "duplicateSource": null,
+              "exportSource": null,
+              "coreVersion": "13.347",
+              "systemId": "pf2e",
+              "systemVersion": "7.3.1"
+            },
+            "ownership": {
+              "default": 0,
+              "CmdglLq38DpgHzdd": 3,
+              "O8OxKK20UjX7W372": 3,
+              "DELswE6aueREB767": 3
+            },
+            "sort": 1000000,
+            "_id": "kexdrz8faYHjsbN7"
+          },
+          {
+            "folder": "cTmXSS0L1MClVGP3",
+            "name": "Auto-CPR Unit",
+            "type": "equipment",
+            "effects": [],
+            "system": {
+              "description": {
+                "gm": "",
+                "value": "<p>This device monitors your vital signs and automatically administers aid. When you have the dying condition while wearing this armor, the DC of your recovery checks is equal to 8 + your dying value (instead of 10 + your dying value).</p>"
+              },
+              "rules": [
+                {
+                  "key": "ActiveEffectLike",
+                  "mode": "subtract",
+                  "path": "system.attributes.dying.recoveryDC",
+                  "value": 2
+                }
+              ],
+              "slug": "auto-cpr-unit",
+              "_migration": {
+                "version": 0.942,
+                "lastMigration": null,
+                "previous": {
+                  "schema": 0.94,
+                  "foundry": "13.347",
+                  "system": "7.3.1"
+                }
+              },
+              "traits": {
+                "otherTags": [],
+                "value": [
+                  "tech"
+                ],
+                "rarity": "common"
+              },
+              "publication": {
+                "title": "Starfinder Player Core",
+                "authors": "",
+                "license": "ORC",
+                "remaster": true
+              },
+              "level": {
+                "value": 2
+              },
+              "quantity": 1,
+              "baseItem": null,
+              "bulk": {
+                "value": 0.1
+              },
+              "hp": {
+                "value": 0,
+                "max": 0
+              },
+              "hardness": 0,
+              "price": {
+                "value": {
+                  "sp": 200
+                }
+              },
+              "equipped": {
+                "carryType": "installed",
+                "handsHeld": 0
+              },
+              "containerId": null,
+              "size": "med",
+              "material": {
+                "type": null,
+                "grade": null
+              },
+              "identification": {
+                "status": "identified",
+                "unidentified": {
+                  "name": "Unusual Object",
+                  "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+                  "data": {
+                    "description": {
+                      "value": ""
+                    }
+                  }
+                },
+                "misidentified": {}
+              },
+              "usage": {
+                "value": "installed-in-armor"
+              },
+              "subitems": []
+            },
+            "img": "modules/sf2e-anachronism/art/icons/abilities/red-blue-jumper-cables.webp",
+            "flags": {},
+            "_stats": {
+              "compendiumSource": "Compendium.sf2e-anachronism.equipment.Item.1kYUux9KdGkPggB4",
+              "duplicateSource": null,
+              "exportSource": null,
+              "coreVersion": "13.347",
+              "systemId": "pf2e",
+              "systemVersion": "7.3.1"
+            },
+            "ownership": {
+              "default": 0,
+              "CmdglLq38DpgHzdd": 3,
+              "O8OxKK20UjX7W372": 3,
+              "DELswE6aueREB767": 3
+            },
+            "sort": 2700000,
+            "_id": "7Lo1JkjKwx4BCxi3"
+          }
+        ],
         "specific": null
       },
       "img": "modules/sf2e-anachronism/art/icons/equipment/armor/jacket-green.webp",
@@ -4250,110 +4456,6 @@
         "default": 0
       },
       "_key": "!actors.items!DFMQqRe3soS5VF90.UUq0KikBFEquXALS"
-    },
-    {
-      "folder": "cTmXSS0L1MClVGP3",
-      "name": "Auto-CPR Unit",
-      "type": "equipment",
-      "effects": [],
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This device monitors your vital signs and automatically administers aid. When you have the dying condition while wearing this armor, the DC of your recovery checks is equal to 8 + your dying value (instead of 10 + your dying value).</p>"
-        },
-        "rules": [
-          {
-            "key": "ActiveEffectLike",
-            "mode": "subtract",
-            "path": "system.attributes.dying.recoveryDC",
-            "value": 2
-          }
-        ],
-        "slug": "auto-cpr-unit",
-        "_migration": {
-          "version": 0.94,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.932,
-            "foundry": "13.346",
-            "system": "7.2.3"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "tech"
-          ],
-          "rarity": "common"
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "level": {
-          "value": 2
-        },
-        "quantity": 1,
-        "baseItem": null,
-        "bulk": {
-          "value": 0.1
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "sp": 200
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "Unusual Object",
-            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "other"
-        },
-        "subitems": []
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/red-blue-jumper-cables.webp",
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "sort": 2700000,
-      "_id": "ruhe0XEm4qRGaHlH",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!DFMQqRe3soS5VF90.ruhe0XEm4qRGaHlH"
     },
     {
       "folder": "T8AzYUgNIAgTJ9Iz",
@@ -6939,103 +7041,6 @@
         "default": 0
       },
       "_key": "!actors.items!DFMQqRe3soS5VF90.vOPCk7XxM1RHkOVI"
-    },
-    {
-      "folder": "cTmXSS0L1MClVGP3",
-      "name": "Jetpack (Commercial)",
-      "type": "equipment",
-      "effects": [],
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>Boosters attached to your armor allow you to fly.</p><p><strong>Activate—Fly</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>"
-        },
-        "rules": [],
-        "slug": "jetpack-commercial",
-        "_migration": {
-          "version": 0.94,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.932,
-            "foundry": "13.346",
-            "system": "7.2.3"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "tech"
-          ],
-          "rarity": "common"
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "level": {
-          "value": 5
-        },
-        "quantity": 1,
-        "baseItem": null,
-        "bulk": {
-          "value": 0.1
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "sp": 1600
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "Unusual Object",
-            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "other"
-        },
-        "subitems": []
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/yellow-thrusters.webp",
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "sort": 1000000,
-      "_id": "x6GJi0OB6ZJwAUr3",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!DFMQqRe3soS5VF90.x6GJi0OB6ZJwAUr3"
     },
     {
       "type": "spell",
