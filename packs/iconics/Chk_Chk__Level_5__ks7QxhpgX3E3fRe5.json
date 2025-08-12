@@ -1632,7 +1632,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Arc Pistol (Tactical)",
+      "name": "Arc Pistol",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -1729,6 +1729,7 @@
         "reload": {
           "value": "1"
         },
+        "grade": "tactical",
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1761,9 +1762,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 2800000,
       "_id": "aqnLhpyVo4E6Q9b6",
@@ -1987,7 +1988,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Painglaive (Advanced)",
+      "name": "Painglaive",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -2086,6 +2087,7 @@
         "reload": {
           "value": null
         },
+        "grade": "advanced",
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -2117,9 +2119,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 4400000,
       "_id": "TYPVkblSjQFhmejO",

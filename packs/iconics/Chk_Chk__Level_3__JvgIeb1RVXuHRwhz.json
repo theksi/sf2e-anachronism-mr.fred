@@ -1981,7 +1981,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Painglaive (Tactical)",
+      "name": "Painglaive",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -2080,6 +2080,7 @@
         "reload": {
           "value": null
         },
+        "grade": "tactical",
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -2111,9 +2112,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 4400000,
       "_id": "TYPVkblSjQFhmejO",

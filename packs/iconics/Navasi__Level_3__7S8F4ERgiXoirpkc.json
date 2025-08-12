@@ -1530,7 +1530,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Knife (Commercial)",
+      "name": "Knife",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -1631,6 +1631,7 @@
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1662,7 +1663,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.3"
       },
@@ -1765,7 +1766,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Semi-Auto Pistol (Commercial)",
+      "name": "Semi-Auto Pistol",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -1861,6 +1862,7 @@
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1893,7 +1895,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.3"
       },
@@ -2867,7 +2869,7 @@
     },
     {
       "folder": "jjcF0lfrc3ZIoKv1",
-      "name": "Carbon Skin (Commercial)",
+      "name": "Carbon Skin",
       "type": "armor",
       "effects": [],
       "system": {
@@ -2949,6 +2951,7 @@
         "dexCap": 4,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -2963,7 +2966,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.3"
       },
@@ -2976,7 +2979,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Laser Pistol (Tactical)",
+      "name": "Laser Pistol",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -3072,6 +3075,7 @@
         "reload": {
           "value": "1"
         },
+        "grade": "tactical",
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -3104,9 +3108,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 3200000,
       "_id": "5a6aRHU19SndO8Z1",

@@ -1521,7 +1521,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Doshko (Commercial)",
+      "name": "Doshko",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -1619,6 +1619,7 @@
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1650,7 +1651,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.3"
       },
@@ -1663,7 +1664,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Machine Gun (Commercial)",
+      "name": "Machine Gun",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -1760,6 +1761,7 @@
         "reload": {
           "value": "2"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1792,7 +1794,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.3"
       },
@@ -1805,7 +1807,7 @@
     },
     {
       "folder": "jjcF0lfrc3ZIoKv1",
-      "name": "Shotalashu Armor (Commercial)",
+      "name": "Shotalashu Armor",
       "type": "armor",
       "effects": [],
       "system": {
@@ -1887,6 +1889,7 @@
         "dexCap": 2,
         "checkPenalty": -2,
         "speedPenalty": -5,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -1901,7 +1904,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.3"
       },

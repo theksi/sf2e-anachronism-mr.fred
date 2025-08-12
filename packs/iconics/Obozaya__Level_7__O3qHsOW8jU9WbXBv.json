@@ -1527,7 +1527,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Doshko (Advanced)",
+      "name": "Doshko",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -1625,6 +1625,7 @@
         "reload": {
           "value": null
         },
+        "grade": "advanced",
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1656,9 +1657,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 5200000,
       "_id": "B6oE3UT0sUtN2WP3",
@@ -1669,7 +1670,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Machine Gun (Advanced)",
+      "name": "Machine Gun",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -1766,6 +1767,7 @@
         "reload": {
           "value": "2"
         },
+        "grade": "advanced",
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1798,9 +1800,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 1000000,
       "_id": "2bVjfZhg9cpPyWzz",
@@ -2450,7 +2452,7 @@
     },
     {
       "folder": "jjcF0lfrc3ZIoKv1",
-      "name": "Hidden Soldier Armor (Tactical)",
+      "name": "Hidden Soldier Armor",
       "type": "armor",
       "effects": [],
       "system": {
@@ -2533,6 +2535,7 @@
         "dexCap": 1,
         "checkPenalty": -3,
         "speedPenalty": -10,
+        "grade": "tactical",
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -2547,9 +2550,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 900000,
       "_id": "JlB73k5JR28orwiy",

@@ -1778,7 +1778,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Battleglove (Commercial)",
+      "name": "Battleglove",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -1876,6 +1876,7 @@
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1907,7 +1908,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.3"
       },
@@ -2139,7 +2140,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Semi-Auto Pistol (Advanced)",
+      "name": "Semi-Auto Pistol",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -2235,6 +2236,7 @@
         "reload": {
           "value": "1"
         },
+        "grade": "advanced",
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -2267,9 +2269,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 100000,
       "_id": "t86cZRe7z0uey7zk",
@@ -4138,7 +4140,7 @@
     },
     {
       "folder": "jjcF0lfrc3ZIoKv1",
-      "name": "Tempweave (Commercial)",
+      "name": "Tempweave",
       "type": "armor",
       "effects": [],
       "system": {
@@ -4220,6 +4222,7 @@
         "dexCap": 4,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -4234,7 +4237,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
         "systemVersion": "7.2.3"
       },

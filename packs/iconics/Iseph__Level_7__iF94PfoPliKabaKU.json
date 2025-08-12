@@ -1972,7 +1972,7 @@
     },
     {
       "folder": "jjcF0lfrc3ZIoKv1",
-      "name": "Second Skin (Tactical)",
+      "name": "Second Skin",
       "type": "armor",
       "effects": [],
       "system": {
@@ -2056,6 +2056,7 @@
         "dexCap": 4,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": "tactical",
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -2070,9 +2071,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 100000,
       "_id": "rq8JSrJuO9KIf8dc",

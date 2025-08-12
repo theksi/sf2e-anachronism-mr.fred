@@ -2021,7 +2021,8 @@
           "misidentified": {}
         },
         "usage": {
-          "value": "held-in-one-hand"
+          "value": "held-in-one-hand",
+          "canBeAmmo": false
         },
         "category": "simple",
         "group": "grenade",
@@ -2042,6 +2043,7 @@
         "reload": {
           "value": "-"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -2057,9 +2059,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "_id": "5riohyR807teLb66",
       "ownership": {
@@ -2180,7 +2182,7 @@
     },
     {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Semi-Auto Pistol (Advanced)",
+      "name": "Semi-Auto Pistol",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -2276,6 +2278,7 @@
         "reload": {
           "value": "1"
         },
+        "grade": "advanced",
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -2308,9 +2311,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.3.1"
       },
       "sort": 100000,
       "_id": "euhcSvzvjczt6aha",
