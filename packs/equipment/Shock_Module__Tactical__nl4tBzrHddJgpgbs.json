@@ -8,7 +8,15 @@
       "gm": "",
       "value": "<p>This circuit safely courses electricity through your weapon. It deals an extra @Damage[1d6[electricity]] damage. On a critical hit, this increases to @Damage[2d10[electricity]] damage, and electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target.</p><p>Electricity damage dealt by this weapon ignores the target's electricity resistance (and the other creatures' on a critical hit).</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "DamageDice",
+        "damageType": "electricity",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "selector": "{item|parentItem.id}-damage"
+      }
+    ],
     "slug": "shock-module-tactical",
     "_migration": {
       "version": 0.94,
@@ -88,7 +96,7 @@
     "exportSource": null,
     "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,
