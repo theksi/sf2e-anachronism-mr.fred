@@ -8,7 +8,17 @@
       "gm": "",
       "value": "<p>This upgrade lets you harm creatures without physical form. A ghost killer weapon is particularly effective against incorporeal creatures, which almost always have a specific vulnerability to ghost killer weapons. Incorporeal creatures can touch, hold, and wield ghost killer weapons (unlike most physical objects).</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "definition": [
+          "item:id:{item|parentItem.id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "property-runes",
+        "value": "ghost-touch"
+      }
+    ],
     "slug": "ghost-killer",
     "_migration": {
       "version": 0.94,
@@ -85,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,
