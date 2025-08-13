@@ -18,6 +18,47 @@
           "item:trait:visual",
           "action:seek"
         ]
+      },
+      {
+        "key": "RollOption",
+        "option": "{item|parentItem.id}-snipers-scope",
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "range-increment",
+        "value": 10,
+        "predicate": [
+          "item:id:{item|parentItem.id}",
+          "{item|parentItem.id}-snipers-scope",
+          {
+            "lt": [
+              "item:range-increment",
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "range-increment",
+        "value": 20,
+        "predicate": [
+          "item:id:{item|parentItem.id}",
+          "{item|parentItem.id}-snipers-scope",
+          {
+            "gte": [
+              "item:range-increment",
+              50
+            ]
+          }
+        ],
+        "priority": 115
       }
     ],
     "slug": "snipers-scope-tactical",
@@ -85,7 +126,7 @@
       "misidentified": {}
     },
     "usage": {
-      "value": "installed-in-a-weapon"
+      "value": "installed-in-a-weapon-sight"
     },
     "subitems": []
   },
@@ -95,9 +136,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,
