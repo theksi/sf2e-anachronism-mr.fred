@@ -532,6 +532,17 @@
                             "LabelTactical": "Tactical Loudener",
                             "CriticalNoteCommercial": "On a critical hit, the target must succeed at a @Check[fortitude|dc:24] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure).",
                             "CriticalNoteTactical": "On a critical hit, the target must succeed at a @Check[fortitude|dc:34] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure)."
+                        },
+                        "ShockModule": {
+                            "LabelCommercial": "Commercial Shock Module",
+                            "LabelTactical": "Tactical Shock Module",
+                            "CriticalNote": "On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target."
+                        },
+                        "Silencer": {
+                            "LabelCommercial": "Commercial Silencer",
+                            "LabelTactical": "Tactical Silencer",
+                            "CriticalNoteCommercial": "On a critical hit, the target must succeed at a @Check[fortitude|dc:24] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure).",
+                            "CriticalNoteTactical": "On a critical hit, the target must succeed at a @Check[fortitude|dc:34] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure)."
                         }
                     }
                 }

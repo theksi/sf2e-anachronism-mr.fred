@@ -6,9 +6,20 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>These grips are designed to make it easy to conceal your weapon and are frequently used by detectives, diplomats, and smugglers. The weapon gains the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} trait.</p><p>A tactical smuggler's grip is a hybrid item with the extradimensional, magical, and tech traits. You can pull the weapon into an extradimensional space as an Interact action, leaving behind a palm-sized disk and granting you a +4 item bonus to your Stealth check to Conceal the Object. You can't draw the weapon while it's in the extradimensional space, but you can use an Interact action to retrieve it.</p>"
+      "value": "<p>These grips are designed to make it easy to conceal your weapon and are frequently used by detectives, diplomats, and smugglers. The weapon gains the concealable trait.</p><p>A tactical smuggler's grip is a hybrid item with the extradimensional, magical, and tech traits. You can pull the weapon into an extradimensional space as an Interact action, leaving behind a palm-sized disk and granting you a +4 item bonus to your Stealth check to Conceal the Object. You can't draw the weapon while it's in the extradimensional space, but you can use an Interact action to retrieve it.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "concealable",
+        "predicate": [
+          "item:id:{item|parentItem.id}"
+        ]
+      }
+    ],
     "slug": "smugglers-grip-tactical",
     "_migration": {
       "version": 0.94,
@@ -76,7 +87,7 @@
       "misidentified": {}
     },
     "usage": {
-      "value": "installed-in-a-weapon"
+      "value": "installed-in-one-handed-weapon-grip"
     },
     "subitems": []
   },
@@ -86,9 +97,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,
