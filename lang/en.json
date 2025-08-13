@@ -526,6 +526,12 @@
                             "LabelTactical": "Tactical Frost Module",
                             "CriticalNoteCommercial": "On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} (or @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} if unholy) until the end of your next turn unless it succeeds at a @Check[fortitude|dc:28] save.",
                             "CriticalNoteTactical": "On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} (or @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} if unholy) until the end of your next turn unless it succeeds at a @Check[fortitude|dc:35] save."
+                        },
+                        "Loudener": {
+                            "LabelCommercial": "Commercial Loudener",
+                            "LabelTactical": "Tactical Loudener",
+                            "CriticalNoteCommercial": "On a critical hit, the target must succeed at a @Check[fortitude|dc:24] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure).",
+                            "CriticalNoteTactical": "On a critical hit, the target must succeed at a @Check[fortitude|dc:34] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure)."
                         }
                     }
                 }

@@ -6,9 +6,26 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>This specialized cone is installed over the muzzle or hilt of a weapon to use pneumonic pulses and passive acoustics to increase the volume of its attacks. It deals an extra @Damage[1d6[sonic]] damage. On a critical hit, the target must succeed at a @Check[fortitude|dc:24] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure).</p>"
+      "value": "<p>This specialized cone is installed over the muzzle or hilt of a weapon to use pneumonic pulses and passive acoustics to increase the volume of its attacks. It deals an extra 1d6 sonic damage. On a critical hit, the target must succeed at a @Check[fortitude|dc:24] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure).</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "DamageDice",
+        "damageType": "sonic",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "selector": "{item|parentItem.id}-damage"
+      },
+      {
+        "key": "Note",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.Loudener.LabelCommecial",
+        "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.Loudener.CriticalNoteCommercial",
+        "selector": "{item|parentItem.id}-damage",
+        "outcome": [
+          "criticalSuccess"
+        ]
+      }
+    ],
     "slug": "loudener-commercial",
     "_migration": {
       "version": 0.94,
@@ -75,7 +92,7 @@
       "misidentified": {}
     },
     "usage": {
-      "value": "installed-in-a-weapon"
+      "value": "installed-on-a-weapon-without-a-silencer"
     },
     "subitems": []
   },
@@ -85,9 +102,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,
