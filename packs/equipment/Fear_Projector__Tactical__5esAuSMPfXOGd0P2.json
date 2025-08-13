@@ -8,7 +8,17 @@
       "gm": "",
       "value": "<p>This integrated hologram projector makes the wounds caused by the weapon look way worse than they are. When you critically hit with this weapon, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.FearProjector.LabelCommecial",
+        "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.FearProjector.CriticalNoteCommercial",
+        "selector": "{item|parentItem.id}-damage",
+        "outcome": [
+          "criticalSuccess"
+        ]
+      }
+    ],
     "slug": "fear-projector-tactical",
     "_migration": {
       "version": 0.94,
@@ -88,9 +98,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,

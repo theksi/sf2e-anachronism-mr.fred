@@ -6,9 +6,32 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Tendrils of dark energy soar from the unit affixed to this weapon, coating it and its ammunition in a disturbing purple hue. When you hit with the weapon, add @Damage[1d4[void]] damage to the damage dealt. In addition, on a critical hit, the target takes @Damage[2d4[persistent,void]] damage; if the target has a shield raised, the shield takes the same amount of persistent damage (its wielder rolls the flat check to see if the persistent damage ends, or the GM rolls if the shield is no longer in someone's possession). Unlike normal void damage, the void damage from an entropic destabilizer damages objects, constructs, and the like by eroding them away.</p>"
+      "value": "<p>Tendrils of dark energy soar from the unit affixed to this weapon, coating it and its ammunition in a disturbing purple hue. When you hit with the weapon, add 1d4 void damage to the damage dealt. In addition, on a critical hit, the target takes 2d4 persistent void damage; if the target has a shield raised, the shield takes the same amount of persistent damage (its wielder rolls the flat check to see if the persistent damage ends, or the GM rolls if the shield is no longer in someone's possession). Unlike normal void damage, the void damage from an entropic destabilizer damages objects, constructs, and the like by eroding them away.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "DamageDice",
+        "damageType": "void",
+        "diceNumber": 1,
+        "dieSize": "d4",
+        "selector": "{item|parentItem.id}-damage"
+      },
+      {
+        "key": "DamageDice",
+        "damageType": "void",
+        "diceNumber": 2,
+        "dieSize": "d4",
+        "selector": "{item|parentItem.id}-damage",
+        "category": "persistent",
+        "critical": true
+      },
+      {
+        "key": "Note",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.EntropicDestabilizer.LabelCommecial",
+        "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.EntropicDestabilizer.DamageNote",
+        "selector": "{item|parentItem.id}-damage"
+      }
+    ],
     "slug": "entropic-destabilizer-commercial",
     "_migration": {
       "version": 0.94,
@@ -86,9 +109,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,

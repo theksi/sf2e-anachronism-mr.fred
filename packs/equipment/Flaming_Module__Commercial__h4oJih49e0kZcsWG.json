@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>This module overheats the weapon's striking edge and ammunition. The weapon deals an additional @Damage[1d6[fire]] damage on a successful Strike, plus @Damage[1d10[persistent,fire]] damage on a critical hit.</p>"
+      "value": "<p>This module overheats the weapon's striking edge and ammunition. The weapon deals an additional 1d6 fire damage on a successful Strike, plus 1d10 persistent fire damage on a critical hit.</p>"
     },
     "rules": [
       {
@@ -103,7 +103,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
     "systemVersion": "7.3.1"
   },

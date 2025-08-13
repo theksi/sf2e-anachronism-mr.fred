@@ -6,9 +6,40 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>This upgrade is often adorned with a religious symbol and channels celestial power. It deals an additional @Damage[1d4[spirit]] damage, or @Damage[3d4[spirit]] against an unholy target. If you are unholy, you are @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} while carrying or wielding this weapon. On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} (or @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} if unholy) until the end of your next turn unless it succeeds at a @Check[fortitude|dc:28] save.</p>"
+      "value": "<p>This upgrade is often adorned with a religious symbol and channels celestial power. It deals an additional 1d4 spirit damage, or 3d4 spirit against an unholy target. If you are unholy, you are @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} while carrying or wielding this weapon. On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} (or @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} if unholy) until the end of your next turn unless it succeeds at a @Check[fortitude|dc:28] save.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "DamageDice",
+        "damageType": "spirit",
+        "diceNumber": 1,
+        "dieSize": "d4",
+        "selector": "{item|parentItem.id}-damage",
+        "slug": "holy-module"
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|parentItem.id}-damage"
+        ],
+        "slug": "holy-module",
+        "mode": "upgrade",
+        "property": "dice-number",
+        "value": 3,
+        "predicate": [
+          "target:trait:unholy"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.LabelCommecial",
+        "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.CriticalNoteCommercial",
+        "selector": "{item|parentItem.id}-damage",
+        "outcome": [
+          "criticalSuccess"
+        ]
+      }
+    ],
     "slug": "holy-module-commercial",
     "_migration": {
       "version": 0.94,
@@ -89,9 +120,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,
