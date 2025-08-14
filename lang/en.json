@@ -297,6 +297,7 @@
                 "AttacksFromSuppressed": "attacks from suppressed targets",
                 "PrimalSpells": "primal spells",
                 "Radiation": "radiation",
+                "RadiationPoison": "radiation poison",
                 "Suppressed": "vs. suppressed"
             }
         },
