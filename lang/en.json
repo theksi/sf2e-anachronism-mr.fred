@@ -539,7 +539,6 @@
                             "CriticalNote": "On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target."
                         },
                         "Silencer": {
-                            "LabelCommercial": "Commercial Silencer",
                             "LabelTactical": "Tactical Silencer",
                             "CriticalNoteTactical": "On a critically successful Strike, the target becomes unable to make sound. The target can't use sonic attacks, nor can it use actions with the auditory trait. This also prevents the target from casting spells due to the incantations or sounds involved in casting, with the exception of subtle spells. The target can resist the effects of the silencer with a successful @Check[will|dc:27] save."
                         }

@@ -18,7 +18,7 @@
       },
       {
         "key": "Note",
-        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.ShockModule.LabelCommecial",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.ShockModule.LabelCommercial",
         "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.ShockModule.CriticalNote",
         "selector": "{item|parentItem.id}-damage",
         "outcome": [

@@ -17,7 +17,7 @@
       },
       {
         "key": "AdjustModifier",
-        "selector": "{item|parentItem.id}-attack-roll",
+        "selector": "{item|parentItem.id}-attack",
         "slug": "kickback",
         "suppress": true,
         "predicate": [
