@@ -541,8 +541,7 @@
                         "Silencer": {
                             "LabelCommercial": "Commercial Silencer",
                             "LabelTactical": "Tactical Silencer",
-                            "CriticalNoteCommercial": "On a critical hit, the target must succeed at a @Check[fortitude|dc:24] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure).",
-                            "CriticalNoteTactical": "On a critical hit, the target must succeed at a @Check[fortitude|dc:34] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure)."
+                            "CriticalNoteTactical": "On a critically successful Strike, the target becomes unable to make sound. The target can't use sonic attacks, nor can it use actions with the auditory trait. This also prevents the target from casting spells due to the incantations or sounds involved in casting, with the exception of subtle spells. The target can resist the effects of the silencer with a successful @Check[will|dc:27] save."
                         }
                     }
                 }
