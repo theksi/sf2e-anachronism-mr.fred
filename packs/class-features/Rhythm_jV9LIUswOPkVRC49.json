@@ -42,10 +42,10 @@
         "value": [
           {
             "title": "SF2E.SpecificRule.Mystic.Harmony.Label",
-            "text": "SF2E.SpecificRule.Mystic.Connection.Rhythm.Harmony"
+            "text": "SF2E.SpecificRule.Mystic.Connection.Rhythm.Harmony.Addendum"
           },
           {
-            "title": "SF2E.SpecificRule.Mystic.Connection.Rhythm.Harmony.Addendum",
+            "title": "SF2E.SpecificRule.Mystic.Harmony.PerfectLabel",
             "text": "SF2E.SpecificRule.Mystic.Connection.Rhythm.PerfectHarmony.Addendum",
             "predicate": [
               "feature:perfect-harmony"

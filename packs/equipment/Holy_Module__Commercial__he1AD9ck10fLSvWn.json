@@ -32,7 +32,7 @@
       },
       {
         "key": "Note",
-        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.LabelCommecial",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.LabelCommercial",
         "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.CriticalNoteCommercial",
         "selector": "{item|parentItem.id}-damage",
         "outcome": [
