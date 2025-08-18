@@ -8,7 +8,17 @@
       "gm": "",
       "value": "<p>A cylinder is filled with internal sound baffles to reduce noise. The weapon doesn't make a loud noise when fired. However, creatures hit by the ammunition might still cry out in pain.</p><p>A tactical silencer is a hybrid item with the magical and tech traits. Shots fired from a tactical silencer magically dampen sounds around them. On a critically successful Strike, the target becomes unable to make sound. The target can't use sonic attacks, nor can it use actions with the auditory trait. This also prevents the target from casting spells due to the incantations or sounds involved in casting, with the exception of subtle spells. The target can resist the effects of the silencer with a successful @Check[will|dc:27] save.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.Silencer.LabelTactical",
+        "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.Silencer.CriticalNoteTactical",
+        "selector": "{item|parentItem.id}-damage",
+        "outcome": [
+          "criticalSuccess"
+        ]
+      }
+    ],
     "slug": "silencer-tactical",
     "_migration": {
       "version": 0.94,
@@ -78,7 +88,7 @@
       "misidentified": {}
     },
     "usage": {
-      "value": "installed-in-a-weapon"
+      "value": "installed-in-ranged-weapon-without-a-loudener"
     },
     "subitems": []
   },
@@ -88,9 +98,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,

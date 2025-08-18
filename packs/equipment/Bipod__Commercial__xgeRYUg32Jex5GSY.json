@@ -8,7 +8,23 @@
       "gm": "",
       "value": "<p>A bipod can be attached to powerful weapons—those with the kickback trait—to allow wielders with lower Strength to use them at the cost of mobility. You can set up the bipod with a single Interact action using one appendage, setting the bipod in your square. When using a bipod, you don't take the –2 penalty for firing a kickback weapon, even if your Strength isn't high enough to avoid the penalty.</p><p>However, you must spend a single Interact action to retrieve the bipod before you can move the weapon to a different position. Deploying or retrieving a bipod with an Interact action doesn't automatically make you observed like an Interact action normally would, so long as you don't set up or remove the bipod when it's in a spot where creatures can see it.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "{item|parentItem.id}-bipod",
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "{item|parentItem.id}-attack",
+        "slug": "kickback",
+        "suppress": true,
+        "predicate": [
+          "{item|parentItem.id}-bipod"
+        ]
+      }
+    ],
     "slug": "bipod-commercial",
     "_migration": {
       "version": 0.94,
@@ -74,7 +90,7 @@
       "misidentified": {}
     },
     "usage": {
-      "value": "installed-in-a-weapon"
+      "value": "installed-in-a-weapon-with-the-kickback-trait"
     },
     "subitems": []
   },
@@ -84,9 +100,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,

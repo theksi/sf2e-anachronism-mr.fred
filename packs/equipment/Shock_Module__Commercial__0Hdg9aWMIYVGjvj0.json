@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>This circuit safely courses electricity through your weapon. It deals an extra @Damage[1d6[electricity]] damage. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target.</p>"
+      "value": "<p>This circuit safely courses electricity through your weapon. It deals an extra 1d6 electricity damage. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target.</p>"
     },
     "rules": [
       {
@@ -15,6 +15,15 @@
         "diceNumber": 1,
         "dieSize": "d6",
         "selector": "{item|parentItem.id}-damage"
+      },
+      {
+        "key": "Note",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.ShockModule.LabelCommercial",
+        "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.ShockModule.CriticalNote",
+        "selector": "{item|parentItem.id}-damage",
+        "outcome": [
+          "criticalSuccess"
+        ]
       }
     ],
     "slug": "shock-module-commercial",
@@ -94,7 +103,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
     "systemVersion": "7.3.1"
   },

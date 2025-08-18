@@ -6,9 +6,20 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>These grips are designed to make it easy to conceal your weapon and are frequently used by detectives, diplomats, and smugglers. The weapon gains the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} trait.</p>"
+      "value": "<p>These grips are designed to make it easy to conceal your weapon and are frequently used by detectives, diplomats, and smugglers. The weapon gains the concealable trait.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "concealable",
+        "predicate": [
+          "item:id:{item|parentItem.id}"
+        ]
+      }
+    ],
     "slug": "smugglers-grip-commercial",
     "_migration": {
       "version": 0.94,
@@ -84,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,

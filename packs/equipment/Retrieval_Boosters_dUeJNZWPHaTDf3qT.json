@@ -8,7 +8,17 @@
       "gm": "",
       "value": "<p>When you make a thrown Strike with this weapon, a complex combination of stabilizers and boosters propels it back into your free hand (or other appendage) after the Strike is complete. If your hands are full when the weapon returns, it falls to the ground in your space.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "definition": [
+          "item:id:{item|parentItem.id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "property-runes",
+        "value": "returning"
+      }
+    ],
     "slug": "retrieval-boosters",
     "_migration": {
       "version": 0.94,
@@ -84,9 +94,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "ownership": {
     "default": 0,

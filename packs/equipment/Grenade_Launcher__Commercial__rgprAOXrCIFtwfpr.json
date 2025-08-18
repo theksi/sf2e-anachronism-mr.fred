@@ -91,6 +91,7 @@
     "reload": {
       "value": null
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -111,9 +112,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "_key": "!items!rgprAOXrCIFtwfpr"
 }
