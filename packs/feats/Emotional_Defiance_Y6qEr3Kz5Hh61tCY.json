@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Trigger</strong> You fail a Will saving throw against a mental effect. You refuse to allow others to influence or manipulate your emotions. Reroll the triggering saving throw and use the better result.</p>",
+      "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You fail a Will saving throw against a mental effect.</p><hr /><p>You refuse to allow others to influence or manipulate your emotions. Reroll the triggering saving throw and use the better result.</p>",
       "gm": ""
     },
     "publication": {
