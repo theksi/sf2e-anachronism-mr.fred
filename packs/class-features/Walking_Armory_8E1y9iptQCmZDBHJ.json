@@ -23,12 +23,7 @@
         "key": "AdjustModifier",
         "suppress": true,
         "predicate": [
-          {
-            "or": [
-              "penalty:slug:armor-speed-penalty",
-              "penalty:slug:armor-check-penalty"
-            ]
-          },
+          "penalty:slug:armor-check-penalty",
           {
             "gte": [
               "attribute:con:mod",
@@ -36,10 +31,22 @@
             ]
           }
         ],
-        "selectors": [
-          "speed",
-          "skill-check"
-        ]
+        "selector": "skill-check"
+      },
+      {
+        "key": "AdjustModifier",
+        "value": 5,
+        "mode": "add",
+        "predicate": [
+          "penalty:slug:armor-speed-penalty",
+          {
+            "gte": [
+              "attribute:con:mod",
+              "armor:strength"
+            ]
+          }
+        ],
+        "selector": "speed"
       },
       {
         "key": "ActiveEffectLike",
@@ -96,9 +103,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.1"
   },
   "_key": "!items!8E1y9iptQCmZDBHJ"
 }
