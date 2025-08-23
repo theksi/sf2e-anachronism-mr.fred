@@ -226,7 +226,7 @@
         "systemId": "pf2e",
         "systemVersion": "7.4.2"
       },
-      "_key": "!actors.items!xNGvj9J0gDhRnqOY.HUevG60qrY45gPjx"
+      "_key": "!actors.items!KLpOVxibZkkZlFZL.HUevG60qrY45gPjx"
     },
     {
       "type": "melee",
@@ -288,7 +288,7 @@
         "systemId": "pf2e",
         "systemVersion": "7.4.2"
       },
-      "_key": "!actors.items!xNGvj9J0gDhRnqOY.siHUnmgRbDRqq4eF"
+      "_key": "!actors.items!KLpOVxibZkkZlFZL.siHUnmgRbDRqq4eF"
     },
     {
       "type": "action",
@@ -298,7 +298,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>Oversized machine gun (@Check[reflex|dc:25|basic] save) (analog, 45-foot cone), Damage @Damage[(2d8+7)[piercing]]</p>",
+          "value": "<p>Oversized machine gun (@Check[reflex|dc:25|basic|traits:analog] save) (analog, @Template[type:cone|distance:45]), Damage @Damage[(2d8+7)[piercing]|options:area-damage]</p><p>You attempt to hit each creature in a cone with a range equal to half the weapon's range increment without making an attack roll. Any creature in the area takes weapon damage (Basic DC 25 reflex save). This damage is area damage. Creatures that critically fail this save are subject to effects that occur on a critical hit with this weapon, including the weapon's critical specialization effect. Auto-Fire has an expend equal to the number of targets in the area × 2.</p>",
           "gm": ""
         },
         "publication": {
@@ -311,7 +311,10 @@
         "slug": null,
         "traits": {
           "otherTags": [],
-          "value": []
+          "value": [
+            "area",
+            "attack"
+          ]
         },
         "_migration": {
           "version": 0.942,
@@ -345,7 +348,7 @@
         "systemId": "pf2e",
         "systemVersion": "7.4.2"
       },
-      "_key": "!actors.items!xNGvj9J0gDhRnqOY.50ZYgMqbf08JtukO"
+      "_key": "!actors.items!KLpOVxibZkkZlFZL.50ZYgMqbf08JtukO"
     }
   ],
   "flags": {
@@ -363,7 +366,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.4.2"
   },
-  "_id": "xNGvj9J0gDhRnqOY",
+  "_id": "KLpOVxibZkkZlFZL",
   "sort": 0,
-  "_key": "!actors!xNGvj9J0gDhRnqOY"
+  "_key": "!actors!KLpOVxibZkkZlFZL"
 }
