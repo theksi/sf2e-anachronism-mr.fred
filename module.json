@@ -297,6 +297,19 @@
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
+        },
+        {
+            "name": "vehicles",
+            "label": "Vehicles",
+            "path": "packs/vehicles",
+            "type": "Actor",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
         }
     ],
     "packFolders": [
@@ -312,7 +325,8 @@
                     "packs": [
                         "standalone-adventure-bestiary",
                         "starfinder-society-bestiary",
-                        "hazards-rulebooks"
+                        "hazards-rulebooks",
+                        "vehicles"
                     ]
                 },
                 {
