@@ -284,6 +284,32 @@
                 "ASSISTANT": "OWNER"
             },
             "flags": {}
+        },
+        {
+            "name": "hazards-rulebooks",
+            "label": "Hazards (Rulebooks)",
+            "path": "packs/hazards-rulebooks",
+            "type": "Actor",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "vehicles",
+            "label": "Vehicles",
+            "path": "packs/vehicles",
+            "type": "Actor",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
         }
     ],
     "packFolders": [
@@ -298,7 +324,9 @@
                     "color": "#9DD9E5",
                     "packs": [
                         "standalone-adventure-bestiary",
-                        "starfinder-society-bestiary"
+                        "starfinder-society-bestiary",
+                        "hazards-rulebooks",
+                        "vehicles"
                     ]
                 },
                 {
