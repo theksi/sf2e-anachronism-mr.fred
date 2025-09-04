@@ -32,8 +32,8 @@
       },
       {
         "key": "Note",
-        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.LabelCommecial",
-        "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.CriticalNoteCommercial",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.LabelTactical",
+        "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.CriticalNoteTactical",
         "selector": "{item|parentItem.id}-damage",
         "outcome": [
           "criticalSuccess"
