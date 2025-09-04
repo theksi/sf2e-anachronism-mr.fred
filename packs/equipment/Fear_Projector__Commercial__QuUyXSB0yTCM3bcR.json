@@ -11,7 +11,7 @@
     "rules": [
       {
         "key": "Note",
-        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.FearProjector.LabelCommecial",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.FearProjector.LabelCommercial",
         "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.FearProjector.CriticalNoteCommercial",
         "selector": "{item|parentItem.id}-damage",
         "outcome": [

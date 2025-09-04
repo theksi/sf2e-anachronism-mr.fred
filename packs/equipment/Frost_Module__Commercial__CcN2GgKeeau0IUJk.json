@@ -18,7 +18,7 @@
       },
       {
         "key": "Note",
-        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.FrostModule.LabelCommecial",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.FrostModule.LabelCommercial",
         "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.FrostModule.CriticalNoteCommercial",
         "selector": "{item|parentItem.id}-damage",
         "outcome": [
