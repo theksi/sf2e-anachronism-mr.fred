@@ -28,7 +28,7 @@
       {
         "key": "Note",
         "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.EntropicDestabilizer.LabelTactical",
-        "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.EntropicDestabilizer.DamageNote",
+        "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.EntropicDestabilizer.Note",
         "selector": "{item|parentItem.id}-damage"
       }
     ],
