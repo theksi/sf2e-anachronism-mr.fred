@@ -840,6 +840,21 @@
                         "label": "SF2E.Trait.Grenade",
                         "description": "SF2E.TraitDescription.Grenade"
                     },
+                    "expend-1": "SF2E.Trait.Expend1",
+                    "expend-2": "SF2E.Trait.Expend2",
+                    "expend-5": "SF2E.Trait.Expend5",
+                    "expend-10": "SF2E.Trait.Expend10",
+                    "mag-1": "SF2E.Trait.Mag1",
+                    "mag-2": "SF2E.Trait.Mag2",
+                    "mag-3": "SF2E.Trait.Mag3",
+                    "mag-4": "SF2E.Trait.Mag4",
+                    "mag-5": "SF2E.Trait.Mag5",
+                    "mag-6": "SF2E.Trait.Mag6",
+                    "mag-7": "SF2E.Trait.Mag7",
+                    "mag-8": "SF2E.Trait.Mag8",
+                    "mag-10": "SF2E.Trait.Mag10",
+                    "mag-20": "SF2E.Trait.Mag20",
+                    "mag-30": "SF2E.Trait.Mag30",
                     "powered": {
                         "label": "SF2E.Trait.Powered",
                         "description": "SF2E.TraitDescription.Powered"
@@ -900,17 +915,7 @@
                     "prismeni": "SF2E.Trait.Prismeni",
                     "shirren": "SF2E.Trait.Shirren",
                     "skittermander": "SF2E.Trait.Skittermander",
-                    "vesk": "SF2E.Trait.Vesk",
-                    "mag-1": "SF2E.Trait.Mag1",
-                    "mag-3": "SF2E.Trait.Mag3",
-                    "mag-4": "SF2E.Trait.Mag4",
-                    "mag-5": "SF2E.Trait.Mag5",
-                    "mag-6": "SF2E.Trait.Mag6",
-                    "mag-7": "SF2E.Trait.Mag7",
-                    "mag-8": "SF2E.Trait.Mag8",
-                    "mag-10": "SF2E.Trait.Mag10",
-                    "mag-20": "SF2E.Trait.Mag20",
-                    "mag-30": "SF2E.Trait.Mag30"
+                    "vesk": "SF2E.Trait.Vesk"
                 }
             }
         }
