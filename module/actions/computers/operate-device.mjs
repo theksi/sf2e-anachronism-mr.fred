@@ -1,5 +1,5 @@
 export function program(SingleCheckAction) {
-    const PREFIX = "SF2E.Actions.Program";
+    const PREFIX = "SF2E.Actions.OperateDevice";
     return new SingleCheckAction({
         description: `${PREFIX}.Description`,
         name: `${PREFIX}.Title`,
@@ -9,10 +9,10 @@ export function program(SingleCheckAction) {
             { outcome: ["failure"], text: `${PREFIX}.Notes.failure` },
             { outcome: ["criticalFailure"], text: `${PREFIX}.Notes.criticalFailure` },
         ],
-        rollOptions: ["action:program"],
+        rollOptions: ["action:operate-device"],
         section: "skill",
         slug: "program",
         statistic: "computers",
-        traits: ["downtime", "manipulate"],
+        traits: ["concentrate", "exploration"],
     });
 }
