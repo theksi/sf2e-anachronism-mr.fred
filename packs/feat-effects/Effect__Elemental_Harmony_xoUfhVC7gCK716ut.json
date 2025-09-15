@@ -59,8 +59,7 @@
         ],
         "mode": "override",
         "property": "damage-type",
-        "value": "{item|flags.pf2e.rulesSelections.damageType}",
-        "slug": "effect-elemental-harmony"
+        "value": "{item|flags.pf2e.rulesSelections.damageType}"
       }
     ],
     "slug": "effect-elemental-harmony",
@@ -117,9 +116,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.4.3"
   },
   "_id": "xoUfhVC7gCK716ut",
   "sort": 5400000,

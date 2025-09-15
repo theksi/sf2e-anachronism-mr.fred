@@ -117,12 +117,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
     "systemVersion": "7.2.3"
   },
   "_id": "7CMMrOsOmHPKffsB",
-  "sort": 0,
+  "sort": 700000,
   "ownership": {
     "default": 0,
     "HfqCvkteYnTykQsA": 3
