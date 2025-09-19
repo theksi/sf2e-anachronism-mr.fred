@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Upgrades:</strong> 0</p><hr /><p>Specialized nanites form a mesh suit that shifts to fit wearers with unique or transformable physiologies.</p>"
+      "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Specialized nanites form a mesh suit that shifts to fit wearers with unique or transformable physiologies.</p>"
     },
     "rules": [],
     "slug": "swarmsuit",
@@ -82,6 +82,7 @@
     "dexCap": 1,
     "checkPenalty": -2,
     "speedPenalty": -5,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -96,9 +97,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.4.3"
   },
   "ownership": {
     "default": 0,

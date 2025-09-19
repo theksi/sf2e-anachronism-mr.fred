@@ -8,7 +8,18 @@
       "gm": "",
       "value": "<p>Automated braces help you to move faster in bulky armor. Reduce your armor's penalty to Speeds by 10 feet.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "armor",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:equipped"
+        ],
+        "property": "speed-penalty",
+        "value": 10
+      }
+    ],
     "slug": "mobility-enhancer-tactical",
     "_migration": {
       "version": 0.94,
@@ -84,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.4.3"
   },
   "ownership": {
     "default": 0,
