@@ -1,5 +1,5 @@
 {
-  "name": "Solarion",
+  "name": "Solarian",
   "type": "Item",
   "_id": "d04di2iVaPX9tEMp",
   "description": "",
@@ -12,7 +12,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
     "systemVersion": "7.2.2"
   },
