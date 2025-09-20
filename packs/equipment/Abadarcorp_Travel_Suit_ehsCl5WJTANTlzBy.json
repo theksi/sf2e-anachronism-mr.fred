@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Upgrades:</strong> 2</p><hr /><p>AbadarCorp executives popularized these armored business suits for boardrooms and battle. Contingent force fields and @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} plating protect the wearer in hostile situations. Higher grades of travel suits offer more protection—along with a designer label.</p>"
+      "value": "<p><strong>Upgrades:</strong> 2</p><hr /><p>AbadarCorp executives popularized these armored business suits for boardrooms and battle. Contingent force fields and concealed plating protect the wearer in hostile situations. Higher grades of travel suits offer more protection—along with a designer label.</p>"
     },
     "rules": [],
     "slug": "abadarcorp-travel-suit",
@@ -76,6 +76,7 @@
     "dexCap": 3,
     "checkPenalty": 0,
     "speedPenalty": 0,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -96,9 +97,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.5.1"
   },
   "_key": "!items!ehsCl5WJTANTlzBy"
 }
