@@ -1,4 +1,4 @@
-export function program(SingleCheckAction) {
+export function operateDevice(SingleCheckAction) {
     const PREFIX = "SF2E.Actions.OperateDevice";
     return new SingleCheckAction({
         description: `${PREFIX}.Description`,
@@ -11,7 +11,7 @@ export function program(SingleCheckAction) {
         ],
         rollOptions: ["action:operate-device"],
         section: "skill",
-        slug: "program",
+        slug: "operate-device",
         statistic: "computers",
         traits: ["concentrate", "exploration"],
     });

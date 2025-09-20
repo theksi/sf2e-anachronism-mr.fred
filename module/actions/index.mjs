@@ -1,6 +1,6 @@
 import { accessInfosphere } from "./computers/access-infosphere.mjs";
 import { hack } from "./computers/hack.mjs";
-import { program } from "./computers/program.mjs";
+import { operateDevice } from "./computers/operate-device.mjs";
 import { drive } from "./piloting/drive.mjs";
 import { navigate } from "./piloting/navigate.mjs";
 import { plotCourse } from "./piloting/plot-course.mjs";
@@ -17,7 +17,7 @@ export function initializeActions() {
         // Computers
         accessInfosphere(SingleCheckAction),
         hack(SingleCheckAction),
-        program(SingleCheckAction),
+        operateDevice(SingleCheckAction),
 
         // Piloting
         drive(SingleCheckAction),
