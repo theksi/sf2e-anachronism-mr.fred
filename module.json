@@ -407,6 +407,7 @@
                     "battle-ribbon": "SF2E.BaseWeapon.BattleRibbon",
                     "battleglove": "SF2E.BaseWeapon.Battleglove",
                     "bio-cannon": "SF2E.BaseWeapon.BioCannon",
+                    "blockthrower": "SF2E.BaseWeapon.Blockthrower",
                     "bone-scepter": "SF2E.BaseWeapon.BoneScepter",
                     "boom-pistol": "SF2E.BaseWeapon.BoomPistol",
                     "breaching-gun": "SF2E.BaseWeapon.BreachingGun",
@@ -426,6 +427,7 @@
                     "gyrojet-pistol": "SF2E.BaseWeapon.GyrojetPistol",
                     "hammer": "SF2E.BaseWeapon.Hammer",
                     "injection-rifle": "SF2E.BaseWeapon.InjectionRifle",
+                    "ivory-chompers": "SF2E.BaseWeapon.IvoryChompers",
                     "knife": "SF2E.BaseWeapon.Knife",
                     "laser-pistol": "SF2E.BaseWeapon.LaserPistol",
                     "laser-rifle": "SF2E.BaseWeapon.LaserRifle",
@@ -447,6 +449,7 @@
                     "puzzleblade": "SF2E.BaseWeapon.Puzzleblade",
                     "reaction-breacher": "SF2E.BaseWeapon.ReactionBreacher",
                     "reality-ripper": "SF2E.BaseWeapon.RealityRipper",
+                    "replica-zo-microphone": "SF2E.BaseWeapon.ReplicaZoMicrophone",
                     "rotating-pistol": "SF2E.BaseWeapon.RotatingPistol",
                     "rotolaser": "SF2E.BaseWeapon.Rotolaser",
                     "scattergun": "SF2E.BaseWeapon.Scattergun",
@@ -468,6 +471,7 @@
                     "tailblade": "SF2E.BaseWeapon.Tailblade",
                     "talon": "SF2E.BaseWeapon.Talon",
                     "thermal-dynafan": "SF2E.BaseWeapon.ThermalDynafan",
+                    "vertebralis-thorn": "SF2E.BaseWeapon.VertebralisThorn",
                     "zero-cannon": "SF2E.BaseWeapon.ZeroCannon",
                     "zero-knife": "SF2E.BaseWeapon.ZeroKnife",
                     "zero-pistol": "SF2E.BaseWeapon.ZeroPistol"
@@ -518,8 +522,10 @@
                     "borai": "SF2E.Trait.Borai",
                     "cosmic": "SF2E.Trait.Cosmic",
                     "contemplative": "SF2E.Trait.Contemplative",
+                    "corpsefolk": "SF2E.Trait.Corpsefolk",
                     "dragonkin": "SF2E.Trait.Dragonkin",
                     "drift": "SF2E.Trait.Drift",
+                    "elebrian": "SF2E.Trait.Elebrian",
                     "ikeshti": "SF2E.Trait.Ikeshti",
                     "jinsul": "SF2E.Trait.Jinsul",
                     "kalo": "SF2E.Trait.Kalo",
@@ -568,6 +574,7 @@
                     "barathu": "SF2E.Trait.Barathu",
                     "borai": "SF2E.Trait.Borai",
                     "contemplative": "SF2E.Trait.Contemplative",
+                    "corpsefolk": "SF2E.Trait.Corpsefolk",
                     "cycle": {
                         "label": "SF2E.Trait.Cycle",
                         "description": "SF2E.TraitDescription.Cycle"
@@ -581,6 +588,7 @@
                         "description": "SF2E.TraitDescription.Disharmony"
                     },
                     "dragonkin": "SF2E.Trait.Dragonkin",
+                    "elebrian": "SF2E.Trait.Elebrian",
                     "envoy": "SF2E.Trait.Envoy",
                     "ikeshti": "SF2E.Trait.Ikeshti",
                     "kalo": "SF2E.Trait.Kalo",
