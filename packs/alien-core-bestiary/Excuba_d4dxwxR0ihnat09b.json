@@ -1,0 +1,1874 @@
+{
+  "type": "npc",
+  "folder": null,
+  "name": "Excuba",
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 2,
+    "width": 2,
+    "name": "Excuba",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 42,
+        "temp": 0,
+        "max": 42,
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 40
+          }
+        ],
+        "details": ""
+      },
+      "immunities": [
+        {
+          "type": "electricity",
+          "exceptions": []
+        },
+        {
+          "type": "precision",
+          "exceptions": []
+        },
+        {
+          "type": "swarm-mind",
+          "exceptions": []
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "area-damage",
+          "value": 5,
+          "exceptions": []
+        },
+        {
+          "type": "splash-damage",
+          "value": 5,
+          "exceptions": []
+        }
+      ],
+      "resistances": [
+        {
+          "type": "bludgeoning",
+          "value": 2,
+          "exceptions": [],
+          "doubleVs": []
+        },
+        {
+          "type": "piercing",
+          "value": 5,
+          "exceptions": [],
+          "doubleVs": []
+        },
+        {
+          "type": "slashing",
+          "value": 5,
+          "exceptions": [],
+          "doubleVs": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": "Arc network, Digital telepathy, Truespeech; can't speak any language"
+      },
+      "level": {
+        "value": 4
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Alien Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.943,
+        "foundry": "13.348",
+        "system": "7.5.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "perception": {
+      "details": "techsense (precise) 60 feet",
+      "mod": 11,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 13,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 11,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "computers": {
+        "base": 15
+      },
+      "deception": {
+        "base": 12
+      },
+      "occultism": {
+        "base": 11
+      },
+      "piloting": {
+        "base": 11
+      },
+      "stealth": {
+        "base": 11
+      }
+    },
+    "traits": {
+      "value": [
+        "cosmic",
+        "spectra",
+        "swarm"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "_id": "d4dxwxR0ihnat09b",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "name": "Drift Lore",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 13
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "fNOfmHjHh0n7vCLl",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.fNOfmHjHh0n7vCLl"
+    },
+    {
+      "type": "action",
+      "name": "Arc Network",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>The excuba can communicate through items and creatures with the tech trait, projecting sound from and speaking through the item or creature's voice, speakers, or other audio output. In addition, the excuba can use any item or creature with the tech trait within their digital telepathy aura as the point of origin for their spells and abilities when calculating range, distance, line of effect, and area of effect.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.943,
+          "previous": {
+            "schema": null,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "iXte6m9b3C472bvv",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.iXte6m9b3C472bvv"
+    },
+    {
+      "type": "action",
+      "name": "Slip Drive",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>An excuba has an internal biomechanical Drift engine, allowing them to function as a Drift engine for a starship or vehicle they pilot as a 1-minute activity. An excuba can enter or exit the Drift themself as a 1-minute activity. When an excuba gets a critical failure on a Piloting check to @UUID[Compendium.sf2e-anachronism.actions.Item.hsUKPqTdAvWwsqH2]{Navigate} or @UUID[Compendium.sf2e-anachronism.actions.Item.LXqcXRayK58inaKo]{Plot a Course} through the Drift, they get a failure instead.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.943,
+          "previous": {
+            "schema": null,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "sOqpqhiwCNsCUCaY",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.sOqpqhiwCNsCUCaY"
+    },
+    {
+      "type": "action",
+      "name": "Techsense",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>The excuba senses creatures and objects with the tech trait as a precise sense within the listed range.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.943,
+          "previous": {
+            "schema": null,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "iopyFb7yr7uIAfqf",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.iopyFb7yr7uIAfqf"
+    },
+    {
+      "type": "action",
+      "name": "Autoencode",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>An excuba's visual appearance is altered when the excuba is perceived by creatures, items, and objects with the tech trait (such as robotic creatures, cameras, and sensors) unless they succeed at a Perception check against the excuba's Deception DC. Excubas in their swarm form appear to be formless shadows and are additionally @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, while excubas in their humanoid forms register as familiar- or unremarkable-looking humanoids.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "illusion",
+            "mental",
+            "occult",
+            "tech"
+          ]
+        },
+        "_migration": {
+          "version": 0.943,
+          "previous": {
+            "schema": null,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "rFx1I4X7FOfAIh2v",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.rFx1I4X7FOfAIh2v"
+    },
+    {
+      "type": "action",
+      "name": "Data Vault",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>An excuba can store data within their body as if they were a computer. Hacking an excuba requires three successes against their Will DC to access their data.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.943,
+          "previous": {
+            "schema": null,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "UM5TEBhZ1BtYUIqg",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.UM5TEBhZ1BtYUIqg"
+    },
+    {
+      "type": "action",
+      "name": "Digital Telepathy",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>100 feet. An excuba can communicate telepathically with any item or creature with the tech trait within their aura as well as with other technologically telepathic creatures (such as those with shortwave and similar abilities). This ability also allows the spectra to remotely attempt Computers checks within their aura.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "occult",
+            "tech"
+          ]
+        },
+        "_migration": {
+          "version": 0.943,
+          "previous": {
+            "schema": null,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "xMQ6d2Y9gxR2TnJx",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.xMQ6d2Y9gxR2TnJx"
+    },
+    {
+      "name": "Occult Innate Spells",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 13,
+          "dc": 21
+        },
+        "tradition": {
+          "value": "occult"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        }
+      },
+      "_id": "ujHetooAwuAC2uqZ",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.ujHetooAwuAC2uqZ"
+    },
+    {
+      "type": "spell",
+      "name": "Caustic Conversion",
+      "folder": "KGETkFaB5r8FyUND",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You launch a torrent of magical nanites that begin dissolving your target. Make a ranged spell attack against the target. On a hit, you deal 3d8 acid damage plus 1d6 persistent acid damage. On a critical hit, double the initial damage, but not the persistent damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 2d8, and the persistent acid damage increases by 1d6.</p>"
+        },
+        "rules": [],
+        "slug": "caustic-conversion",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid",
+            "attack",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0CyERjzWBjYJHTNd": {
+            "formula": "3d8",
+            "kinds": [
+              "damage"
+            ],
+            "type": "acid",
+            "category": null,
+            "materials": [],
+            "applyMod": false
+          },
+          "7nEzdLNhUqgEUBkJ": {
+            "formula": "1d6",
+            "kinds": [
+              "damage"
+            ],
+            "type": "acid",
+            "category": "persistent",
+            "materials": [],
+            "applyMod": false
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "ujHetooAwuAC2uqZ",
+          "heightenedLevel": 2
+        },
+        "counteraction": false,
+        "heightening": {
+          "type": "interval",
+          "interval": 2,
+          "damage": {
+            "0CyERjzWBjYJHTNd": "2d8",
+            "7nEzdLNhUqgEUBkJ": "1d6"
+          },
+          "area": 0
+        }
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/green-acid-sprayer.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "_id": "UmUTZvCUiqIhAHsI",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.UmUTZvCUiqIhAHsI"
+    },
+    {
+      "type": "spell",
+      "name": "Inject Nanobots",
+      "folder": "KGETkFaB5r8FyUND",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You inject magical nanobots into a creature. Make a melee spell attack roll. On a hit, the target takes 4d6 acid damage. On a critical hit, the target takes double damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round as nanobots swarm through the target's biological or mechanical systems.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "rules": [],
+        "slug": "inject-nanobots",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid",
+            "attack",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "Xdnfrdvjfv7q0CPF": {
+            "formula": "4d6",
+            "kinds": [
+              "damage"
+            ],
+            "type": "acid",
+            "category": null,
+            "materials": [],
+            "applyMod": false
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "ujHetooAwuAC2uqZ",
+          "heightenedLevel": 2
+        },
+        "counteraction": false,
+        "heightening": {
+          "type": "interval",
+          "interval": 1,
+          "damage": {
+            "Xdnfrdvjfv7q0CPF": "2d6"
+          },
+          "area": 0
+        }
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-comet.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "_id": "YYKfTY5Hb0G2Ska9",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.YYKfTY5Hb0G2Ska9"
+    },
+    {
+      "type": "spell",
+      "name": "Skim Data",
+      "folder": "KGETkFaB5r8FyUND",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You touch one object and concentrate on a dataset contained within it, such as a story, message, file, infosphere site, audio recording, or video. You understand the gist of the dataset and can quickly locate the most relevant pages or sections to your search. If the dataset is written or otherwise communicated in a language you don't know, or you attempt to gain information from a computer you don't have access to (such as one with a password you don't know), the spell fails.</p><p>If you Cast this Spell as part of a @UUID[Compendium.pf2e.actionspf2e.Item.t5nBkpjroaq7QBGK]{Research} activity, you treat a critical failure as a failure instead.</p>"
+        },
+        "rules": [],
+        "slug": "skim-data",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "one dataset contained within a touched object"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "ujHetooAwuAC2uqZ",
+          "heightenedLevel": 2
+        },
+        "counteraction": false
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-circuit-board.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "_id": "hN8EeM8KCrwC83KK",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.hN8EeM8KCrwC83KK"
+    },
+    {
+      "type": "spell",
+      "name": "Delete",
+      "folder": "PUfxgisPd7TTDluV",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You delete data from a device or object with a flamboyant magical gesture. This data might be handwritten, printed, or digital. You delete up to 1,500 words' worth of text, one page of content, or one display screen worth of text or other visual information. Non-magical writing in or on an unattended or held object is automatically deleted. Attempt a counteract check to delete digital or magical writing. If you fail to delete writing that's part of a hazard, you trigger the hazard. This can't be used to delete the contents of a spellbook or similar means of storing magical formulas or spells.</p><p>If you target an attended tech item with the tracking trait, attempt a counteract check. On a success, the item becomes glitching 1. A creature holding the item can Interact to restart the software, reducing the glitching value by 1.</p><hr /><p><strong>Heightened (7th)</strong> You can delete all the data stored locally on a single device or book, or all the data on a device or book related to a specific name, topic, or category.</p>"
+        },
+        "rules": [],
+        "slug": "delete",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 dataset or tech item with the tracking trait"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "ujHetooAwuAC2uqZ",
+          "heightenedLevel": 1
+        },
+        "counteraction": false
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/cerulean-circular-sign.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "_id": "4naLxQfqnJCTDxTx",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.4naLxQfqnJCTDxTx"
+    },
+    {
+      "type": "spell",
+      "name": "Dream of Home",
+      "folder": "PUfxgisPd7TTDluV",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You draw on a creature's thoughts of home and the comfort it finds in that concept, overwhelming the creature with wistful memories of whatever home means to it. The target must succeed at a Will save or become @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the memories.</p>"
+        },
+        "rules": [],
+        "slug": "dream-of-home",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 minute",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "statistic": "will",
+            "basic": false
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "ujHetooAwuAC2uqZ",
+          "heightenedLevel": 1
+        },
+        "counteraction": false
+      },
+      "img": "icons/environment/settlement/palast.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "_id": "3ifjjfuFojkv6gDN",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.3ifjjfuFojkv6gDN"
+    },
+    {
+      "type": "spell",
+      "name": "Analyze Target",
+      "folder": "9xujKNVgcczpuL4g",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p><p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]{Spell Effect: Analyze Target}</p><hr /><p><strong>Heightened (3rd)</strong> The circumstance bonus increases to +2, and you can target up to 10 creatures.</p><p><strong>Heightened (6th)</strong> The circumstance bonus increases to +3, and you can target any number of creatures.</p>"
+        },
+        "rules": [],
+        "slug": "analyze-target",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "detection",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 hour",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "ujHetooAwuAC2uqZ"
+        },
+        "counteraction": false
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/pink-target-sign.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "_id": "4DCPL3EFZZO0QvL7",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.4DCPL3EFZZO0QvL7"
+    },
+    {
+      "type": "spell",
+      "name": "Implant Data",
+      "folder": "9xujKNVgcczpuL4g",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You reprogram a computer or device to display a chosen piece of data when accessed. You can implant up to one piece of data per spell rank. A piece of data can be a simple fact, such as a creature or object's location or physical description; an image of a creature or object; or a simple statement of no more than 300 characters. When the target computer or device is accessed, this implanted data is the first data the accessing creature gains, regardless of what data the creature is looking for. Implanted data doesn't prevent a creature from accessing other information stored on a device, change how the device functions, or otherwise inhibit the device from functioning. If this spell's duration ends before a creature accesses the implanted data, the information vanishes.</p><hr /><p><strong>Heightened (3rd)</strong> The duration is one year.</p><p><strong>Heightened (6th)</strong> The duration is unlimited.</p>"
+        },
+        "rules": [],
+        "slug": "implant-data",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 computer"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 day",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "ujHetooAwuAC2uqZ"
+        },
+        "counteraction": false
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/purple-insignia.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "_id": "4xoTxbaVNHUES8BU",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.4xoTxbaVNHUES8BU"
+    },
+    {
+      "type": "spell",
+      "name": "Seek the Stars",
+      "folder": "9xujKNVgcczpuL4g",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>In your mind's eye, you chart a path through the cosmos. If you're in Pact Worlds space, you immediately know which direction to travel in order to reach the Starstone on Absalom Station. If you're outside the Pact System, you know the direction to the nearest Drift beacon or the Starstone.</p><hr /><p><strong>Heightened (7th)</strong> You can instead know the direction to a familiar location, such as a world or way station you've visited.</p>"
+        },
+        "rules": [],
+        "slug": "seek-the-stars",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "ujHetooAwuAC2uqZ"
+        },
+        "counteraction": false
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/yellow-star-with-purple-aura.webp",
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "_id": "L2bYOaH9jiWJEHdc",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.L2bYOaH9jiWJEHdc"
+    },
+    {
+      "folder": "iDjm2cXyRAe4VZ35",
+      "img": "systems/pf2e/icons/spells/tongues.webp",
+      "name": "Truespeech (Constant)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The target can understand all words regardless of language and also speak the languages of other creatures. When in a mixed group of creatures, each time the target speaks, it can choose a creature and speak in a language that creature understands, even if the target doesn't know what language that is.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> The duration is 8 hours.</p>"
+        },
+        "rules": [],
+        "slug": "truespeech",
+        "_migration": {
+          "version": 0.943,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "uncommon",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 hour",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "ujHetooAwuAC2uqZ"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "lQXP6d1WVdoOhPc2",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.lQXP6d1WVdoOhPc2"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Constant Spells",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "constant-spells",
+        "_migration": {
+          "version": 0.943,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "OM688Ii6LHdWjMXQ",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.OM688Ii6LHdWjMXQ"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Change Shape",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>The excuba can take on the appearance of any Small or Medium humanoid.</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "concentrate",
+            "polymorph"
+          ],
+          "otherTags": []
+        },
+        "slug": "change-shape",
+        "_migration": {
+          "version": 0.943,
+          "previous": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "wIER6joHf5wEAqbk",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.wIER6joHf5wEAqbk"
+    },
+    {
+      "type": "action",
+      "name": "Data Search",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "description": {
+          "value": "<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> The excuba selects one creature with the tech trait in their space, searching its mind and memories. The creature must attempt a @Check[will|dc:21] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected and immune to Data Search for 24 hours.</p><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The excuba accesses the creature's memories of the last 24 hours, downloading a holographic copy into their data vault and gaining insights into the creature's tactics. The creature must roll twice and take the lower result on its next attack roll, skill check, or saving throw against the excuba or one of the excuba's spells or abilities. This effect has the misfortune trait.</p><p><strong>Critical Failure</strong> As failure, but the excuba also obtains a specific type of memory (such as what happened during the last time the creature encountered a Drift beacon) regardless of how long ago it was. The target creature loses this memory until it gains access to the excuba's data vault.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "occult",
+            "tech"
+          ]
+        },
+        "_migration": {
+          "version": 0.943,
+          "previous": {
+            "schema": null,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "TjVNJuzsINqIgsZA",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.TjVNJuzsINqIgsZA"
+    },
+    {
+      "type": "action",
+      "name": "Swarming Synchronization",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "description": {
+          "value": "<p>Each enemy creature in the swarm's space takes @Damage[2d8[sonic]] damage (@Check[reflex|dc:21|basic] save). On a failure, creatures and objects with the tech trait become @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} (or @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} on a critical failure).</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "occult",
+            "sonic",
+            "tech"
+          ]
+        },
+        "_migration": {
+          "version": 0.943,
+          "previous": {
+            "schema": null,
+            "foundry": "13.348",
+            "system": "7.5.1"
+          }
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "xE53cz2iYwj1WfSN",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.xE53cz2iYwj1WfSN"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1"
+  },
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 0,
+  "_key": "!actors!d4dxwxR0ihnat09b"
+}
