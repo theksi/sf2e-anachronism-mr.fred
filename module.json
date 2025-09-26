@@ -39,6 +39,19 @@
             "flags": {}
         },
         {
+            "name": "alien-core-bestiary",
+            "label": "Alien Core",
+            "path": "packs/alien-core-bestiary",
+            "type": "Actor",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
             "name": "ancestries",
             "label": "Ancestries",
             "path": "packs/ancestries",
@@ -195,6 +208,19 @@
             "flags": {}
         },
         {
+            "name": "guilt-of-the-grave-world-bestiary",
+            "label": "Guilt of the Grave World",
+            "path": "packs/guilt-of-the-grave-world-bestiary",
+            "type": "Actor",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
             "name": "heritages",
             "label": "Heritages",
             "path": "packs/heritages",
@@ -310,6 +336,8 @@
                     "sorting": "m",
                     "color": "#9DD9E5",
                     "packs": [
+                        "alien-core-bestiary",
+                        "guilt-of-the-grave-world-bestiary",
                         "standalone-adventure-bestiary",
                         "starfinder-society-bestiary",
                         "rulebook-bestiaries"
@@ -488,6 +516,7 @@
                     "khizar": "SF2E.Language.Khizar",
                     "kothama": "SF2E.Language.Kothama",
                     "kucharn": "SF2E.Language.Kucharn",
+                    "orbian": "SF2E.Language.Orbian",
                     "pact-common": "SF2E.Language.PactCommon",
                     "pahtra": "SF2E.Language.Pahtra",
                     "prelurian": "SF2E.Language.Prelurian",

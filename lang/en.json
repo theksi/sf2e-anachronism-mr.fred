@@ -319,6 +319,7 @@
             "Kucharn": "Kucharn",
             "Lashunta": "Lashunta",
             "Morandomandranan": "Morandomandranan",
+            "Orbian": "Orbian",
             "PactCommon": "Pact Common",
             "Pahtra": "Pahtra",
             "Prelurian": "Prelurian",
@@ -333,6 +334,13 @@
             "Vlaka": "Vlaka"
         },
         "NPCAbility": {
+            "CorpseFleet": {
+                "JuniorOfficer": {
+                    "RallyTheTroops": {
+                        "Prompt": "Did your movement end next to the officer?"
+                    }
+                }
+            },
             "Hardlight": {
                 "TouchingProjectorLabel": "Touching Projector"
             }
