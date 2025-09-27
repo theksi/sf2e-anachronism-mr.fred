@@ -19,10 +19,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Starfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 0
@@ -88,7 +88,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.5.2"
   },
-  "_id": "PjyYbYEFaJeUq3bU",
+  "_id": "NAa1537jLii1129F",
   "sort": 0,
-  "_key": "!items!PjyYbYEFaJeUq3bU"
+  "_key": "!items!NAa1537jLii1129F"
 }
