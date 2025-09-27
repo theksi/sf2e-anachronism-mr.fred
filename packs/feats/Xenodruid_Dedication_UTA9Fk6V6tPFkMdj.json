@@ -79,7 +79,7 @@
           "value": "spellcaster class feature that chooses spells from the primal spell list"
         },
         {
-          "value": "trained\nin Nature"
+          "value": "trained in Nature"
         }
       ]
     },
@@ -102,9 +102,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1",
+    "systemVersion": "7.5.1",
     "exportSource": null
   },
   "_key": "!items!UTA9Fk6V6tPFkMdj"

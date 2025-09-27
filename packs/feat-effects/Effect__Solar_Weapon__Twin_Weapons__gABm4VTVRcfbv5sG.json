@@ -338,7 +338,6 @@
         "slug": "twin-solar-weapon",
         "traits": [
           "attuned",
-          "free-hand",
           "solarian"
         ],
         "label": "SF2E.SpecificRule.Solarian.SolarWeapon.TwinLabel",
@@ -367,8 +366,8 @@
         "predicate": [
           {
             "nor": [
-              "solar-weapon-trait-one:reach",
-              "solar-weapon-trait-one:two-hand-d10"
+              "twin-solar-weapon-trait-one:reach",
+              "twin-solar-weapon-trait-one:two-hand-d10"
             ]
           },
           "item:id:{item|id}"
@@ -464,9 +463,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.5.1"
   },
   "_id": "gABm4VTVRcfbv5sG",
   "sort": 2300000,

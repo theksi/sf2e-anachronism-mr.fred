@@ -47,7 +47,8 @@
     "price": {
       "value": {
         "sp": 10
-      }
+      },
+      "per": 1
     },
     "equipped": {
       "carryType": "worn"
@@ -75,7 +76,7 @@
     "uses": {
       "value": 10,
       "max": 10,
-      "autoDestroy": true
+      "autoDestroy": false
     },
     "damage": null,
     "usage": {
@@ -90,9 +91,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.4.3"
   },
   "folder": "F6h7fO0Z7cgQBVRD",
   "ownership": {

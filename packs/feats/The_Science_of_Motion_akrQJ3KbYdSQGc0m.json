@@ -68,7 +68,7 @@
           "value": "trained in Athletics"
         },
         {
-          "value": "one space-related Lore\n(such as Astronomy Lore, Physical Science Lore, or Sun Lore)"
+          "value": "one space-related Lore (such as Astronomy Lore, Physical Science Lore, or Sun Lore)"
         }
       ]
     },
@@ -90,9 +90,9 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1",
+    "systemVersion": "7.5.1",
     "exportSource": null
   },
   "_id": "akrQJ3KbYdSQGc0m",

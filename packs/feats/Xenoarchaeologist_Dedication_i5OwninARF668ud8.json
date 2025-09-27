@@ -118,7 +118,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "trained in Society, Thievery, and your choice of\nArcana, Nature, Occultism, or Religion"
+          "value": "trained in Society, Thievery, and your choice of Arcana, Nature, Occultism, or Religion"
         }
       ]
     },
@@ -141,9 +141,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1",
+    "systemVersion": "7.5.1",
     "exportSource": null
   },
   "_key": "!items!i5OwninARF668ud8"

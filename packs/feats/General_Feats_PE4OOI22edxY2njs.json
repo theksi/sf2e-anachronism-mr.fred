@@ -5,14 +5,14 @@
   "description": "",
   "folder": null,
   "sorting": "a",
-  "sort": 300000,
+  "sort": 500000,
   "color": null,
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
     "systemVersion": "7.2.2"
   },

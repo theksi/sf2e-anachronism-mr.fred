@@ -18,7 +18,7 @@
       },
       {
         "key": "Note",
-        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.Loudener.LabelCommecial",
+        "title": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.Loudener.LabelCommercial",
         "text": "SF2E.SpecificRule.Equipment.Upgrades.Weapon.Loudener.CriticalNoteCommercial",
         "selector": "{item|parentItem.id}-damage",
         "outcome": [
