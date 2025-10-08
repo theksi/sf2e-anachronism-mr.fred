@@ -125,7 +125,7 @@
         "details": ""
       },
       "ac": {
-        "value": 0
+        "value": 15
       },
       "hardness": 10,
       "stealth": {
@@ -151,7 +151,7 @@
       "level": {
         "value": 2
       },
-      "isComplex": true,
+      "isComplex": false,
       "disable": "<p>@Check[arcana|dc:20] (trained) to depower the magical circuits, @Check[computers|dc:20] (trained) to reprogram the projector, or @Check[athletics|dc:20] (trained) to rip the projector out of the wall.</p>",
       "routine": "",
       "reset": "<p>The trap deactivates after 6 rounds and resets after 1 hour.</p>",
@@ -301,9 +301,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.5.2"
   },
   "ownership": {
     "default": 0,
