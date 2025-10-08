@@ -226,6 +226,7 @@
             "Battleglove": "Battleglove",
             "BattleRibbon": "Battle Ribbon",
             "BioCannon": "Bio-Cannon",
+            "Blockthrower": "Blockthrower",
             "BoneScepter": "Bone Scepter",
             "BoomPistol": "Boom Pistol",
             "BreachingGun": "Breaching Gun",
@@ -245,6 +246,7 @@
             "GyrojetPistol": "Gyrojet Pistol",
             "Hammer": "Hammer",
             "InjectionRifle": "Injection Rifle",
+            "IvoryChompers": "Ivory Chompers",
             "Knife": "Knife",
             "LaserPistol": "Laser Pistol",
             "LaserRifle": "Laser Rifle",
@@ -267,6 +269,7 @@
             "Puzzleblade": "Puzzleblade",
             "ReactionBreacher": "Reaction Breacher",
             "RealityRipper": "Reality Ripper",
+            "ReplicaZoMicrophone": "Replica Zo! Microphone",
             "RotatingPistol": "Rotating Pistol",
             "Rotolaser": "Rotolaser",
             "Scattergun": "Scattergun",
@@ -288,6 +291,7 @@
             "Tailblade": "Tailblade",
             "Talon": "Talon",
             "ThermalDynafan": "Thermal Dynafan",
+            "VertebralisThorn": "Vertebralis Thorn",
             "ZeroCannon": "Zero Cannon",
             "ZeroKnife": "Zero Knife",
             "ZeroPistol": "Zero Pistol"
@@ -315,6 +319,7 @@
             "Kucharn": "Kucharn",
             "Lashunta": "Lashunta",
             "Morandomandranan": "Morandomandranan",
+            "Orbian": "Orbian",
             "PactCommon": "Pact Common",
             "Pahtra": "Pahtra",
             "Prelurian": "Prelurian",
@@ -329,6 +334,13 @@
             "Vlaka": "Vlaka"
         },
         "NPCAbility": {
+            "CorpseFleet": {
+                "JuniorOfficer": {
+                    "RallyTheTroops": {
+                        "Prompt": "Did your movement end next to the officer?"
+                    }
+                }
+            },
             "Hardlight": {
                 "TouchingProjectorLabel": "Touching Projector"
             }
@@ -406,6 +418,11 @@
                 },
                 "Telepredict": {
                     "Toggle": "Telepredict: Dealt mental damage"
+                }
+            },
+            "Corpsefolk": {
+                "BoneShards": {
+                    "Label": "Bone Shards"
                 }
             },
             "Dragonkin": {
@@ -967,6 +984,7 @@
             "Charm": "Charm",
             "Compact": "Compact",
             "Contemplative": "Contemplative",
+            "Corpsefolk": "Corpsefolk",
             "Cosmic": "Cosmic",
             "CriticalBrawling": "Critical (Brawling)",
             "CriticalCorrosive": "Critical (Corrosive)",
@@ -982,6 +1000,7 @@
             "Disharmony": "Disharmony",
             "Dragonkin": "Dragonkin",
             "Drift": "Drift",
+            "Elebrian": "Elebrian",
             "Envoy": "Envoy",
             "Expend1": "Expend 1",
             "Expend10": "Expend 10",
@@ -1033,6 +1052,7 @@
             "Skittermander": "Skittermander",
             "Solarian": "Solarian",
             "Soldier": "Soldier",
+            "Spectra": "Spectra",
             "Suppressed": "Suppressed",
             "Tech": "Tech",
             "Thought": "Thought",
