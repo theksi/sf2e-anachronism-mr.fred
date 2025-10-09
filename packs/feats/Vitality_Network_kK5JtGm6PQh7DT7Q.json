@@ -32,7 +32,7 @@
       },
       {
         "key": "SpecialResource",
-        "max": "min(10 * floor(@actor.level / 5), 10)"
+        "max": "max(10 * floor(@actor.level / 5), 10)"
       }
     ],
     "slug": "vitality-network",
