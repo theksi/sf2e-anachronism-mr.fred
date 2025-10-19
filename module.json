@@ -246,6 +246,19 @@
             },
             "flags": {}
         },
+                {
+            "name": "journals",
+            "label": "Journals",
+            "path": "packs/journals",
+            "type": "JournalEntry",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
         {
             "name": "paizo-pregens",
             "label": "Adventure Pregens",
@@ -370,6 +383,7 @@
                         "equipment",
                         "feats",
                         "heritages",
+                        "journals",
                         "spells",
                         "iconics",
                         "paizo-pregens"
